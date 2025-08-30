@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeRain - FAQ</title>
+    <link rel="stylesheet" href="./assets/css/faq.css">
+</head>
+
+<body>
+
+    <header class="topo">
+        <img src="assets/img/logo.png" alt="">
+        <nav>
+            <a href="index.html">
+                <img src="./assets/img/home.png" alt="Home" class="icon-header"> Home
+            </a>
+            <a href="integrantes.html">
+                <img src="./assets/img/integrantes.png" alt="Integrantes" class="icon-header"> Integrantes
+            </a>
+            <a href="faq.html">
+                <img src="./assets/img/faq.png" alt="FAQ" class="icon-header"> FAQ
+            </a>
+            <a href="contato.html">
+                <img src="./assets/img/contato.png" alt="Contato" class="icon-header"> Contato
+            </a>
+            <a href="integrantes.html">
+                <img src="./assets/img/funcionalidades.png" alt="icone de Funcionalidades" class="icon-header">Funcionalidades
+            </a>
+    </header>
+
+    <main>
+        <section class="hero-alertas-wrapper">
+            <div class="hero">
+                <h2>Perguntas Frequentes</h2>
+                <p>Encontre a resposta para suas dúvidas</p>
+        </section>
+
+        <section>
+            <div class="faq-item">
+                <h3 onclick="toggleResposta(this)">Como receber alertas?</h3>
+                <p class="resposta">Acompanhe nossos alertas na página inicial e ative as notificações do navegador.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 onclick="toggleResposta(this)">Posso confiar nos alertas gerados pelo SafeRain?</h3>
+                <p>Os alertas são baseados em dados oficiais da API, mas sempre recomendamos acompanhar também os
+                    alertas da Defesa Civil.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3 onclick="toggleResposta(this)">Funciona em celular e computador?</h3>
+                <p>Sim. A plataforma foi desenvolvida para ser responsiva, se adaptando a diferentes tamanhos de tela.
+                </p>
+            </div>
+
+            <div class="faq-item">
+                <h3 onclick="toggleResposta(this)">Como posso contribuir com o SafeRain?</h3>
+                <p>Você pode contribuir reportando bugs, sugerindo melhorias ou ajudando a divulgar a plataforma.</p>
+            </div>
+
+            <div class="faq-item bot-align">
+                <img src="./assets/img/chat-bot.png" alt="Chat Bot">
+                <h3>Fale com nosso bot</h3>
+            </div>
+
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© 2025 SafeRain - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="81B55BBA-21AF-E0A5-25EC-FFFDE3FBB307" name="T_RHSTU_CIDADE">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:53:36 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_CIDADE" id="CFDE7C8E-E470-507C-1259-07A53F0870C0">
+<createdBy>Leonardo</createdBy>
+<createdTime>2025-05-08 20:52:22 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,9,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_CIDADE" id="561281D5-4B7D-E53E-33C1-A3CC064A1440">
+<createdBy>Leonardo</createdBy>
+<createdTime>2025-05-08 20:52:43 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_ESTADO" id="EE4D90A3-5D9A-78F9-44F2-3446B553901D">
+<createdBy>Leonardo</createdBy>
+<createdTime>2025-05-08 21:14:38 UTC</createdTime>
+<generatorID>F8C9F39E-479D-B6A7-0E70-370C56B91C9E</generatorID>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>AD5E3FCF-03B1-B7EE-452D-80214028E152</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>9</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D13DB44B-09A4-579F-396D-388E5B2D0CD9" name="T_RHSTU_CIDADE PK">
+<createdBy>Leonardo</createdBy>
+<createdTime>2025-05-08 20:53:27 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CFDE7C8E-E470-507C-1259-07A53F0870C0</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

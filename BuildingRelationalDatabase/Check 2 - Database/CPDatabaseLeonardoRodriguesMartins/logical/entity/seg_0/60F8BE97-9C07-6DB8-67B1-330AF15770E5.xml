@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="60F8BE97-9C07-6DB8-67B1-330AF15770E5" name="T_RHSTU_PIX">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:08:36 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FORMA_PAGTO" id="9DBCE400-FC99-4A98-D467-8BFCB020AD19">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:13:15 UTC</createdTime>
+<generatorID>4D740D88-3723-5E85-47F8-C380FAADFF8E</generatorID>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>4E218399-9591-8C64-43AD-E05DDEC8D090</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TRANSACAO" id="01595B55-25D8-9B94-5274-EA9228B01012">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:08:51 UTC</createdTime>
+<commentInRDBMS><![CDATA[(CPF, E-mail ou Nr_celular)]]></commentInRDBMS>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TRANSACAO" id="B50C23D5-0F37-394C-386B-3E91E9570A19">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:09:05 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DS_PIX" id="B5E29FFF-D700-9B64-D3B6-901F4C408CA3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:09:36 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="25E2302F-22A9-815E-9232-15349C02E230" name="T_RHSTU_PIX PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:15:26 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>9DBCE400-FC99-4A98-D467-8BFCB020AD19</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,345 @@
+{
+    "name": "SafeRain-Chatbot",
+    "language": "pt-br",
+    "intents": [
+        {
+            "intent": "saudar",
+            "examples": [
+                {
+                    "text": "Oi"
+                },
+                {
+                    "text": "Olá"
+                },
+                {
+                    "text": "Bom dia"
+                },
+                {
+                    "text": "Boa tarde"
+                },
+                {
+                    "text": "Boa noite"
+                },
+                {
+                    "text": "E aí"
+                },
+                {
+                    "text": "Tudo bem?"
+                },
+                {
+                    "text": "Como vai?"
+                },
+                {
+                    "text": "Saudações"
+                },
+                {
+                    "text": "Olá SafeRain"
+                },
+                {
+                    "text": "Estou aqui"
+                },
+                {
+                    "text": "Preciso de ajuda"
+                }
+            ]
+        },
+        {
+            "intent": "alertas_risco",
+            "examples": [
+                {
+                    "text": "Quais são os alertas hoje?"
+                },
+                {
+                    "text": "Tem risco de alagamento?"
+                },
+                {
+                    "text": "Está chovendo muito?"
+                },
+                {
+                    "text": "Tem risco de deslizamento?"
+                },
+                {
+                    "text": "Onde tem bloqueio?"
+                },
+                {
+                    "text": "Alguma emergência na cidade?"
+                },
+                {
+                    "text": "Quais os riscos agora?"
+                },
+                {
+                    "text": "Como está a situação?"
+                },
+                {
+                    "text": "Está perigoso na minha região?"
+                },
+                {
+                    "text": "Tem aviso de chuva forte?"
+                },
+                {
+                    "text": "Algum alerta ativo?"
+                },
+                {
+                    "text": "Onde tem risco hoje?"
+                }
+            ]
+        },
+        {
+            "intent": "orientacoes_seguranca",
+            "examples": [
+                {
+                    "text": "O que fazer antes da chuva?"
+                },
+                {
+                    "text": "Como me preparar?"
+                },
+                {
+                    "text": "O que eu faço se alagar?"
+                },
+                {
+                    "text": "E se tiver deslizamento?"
+                },
+                {
+                    "text": "Onde me abrigar?"
+                },
+                {
+                    "text": "Me dê dicas de segurança"
+                },
+                {
+                    "text": "O que fazer durante a chuva?"
+                },
+                {
+                    "text": "Como agir em emergência?"
+                },
+                {
+                    "text": "O que fazer depois da enchente?"
+                },
+                {
+                    "text": "Quais cuidados tomar?"
+                },
+                {
+                    "text": "Tem checklist de emergência?"
+                },
+                {
+                    "text": "Como me proteger?"
+                }
+            ]
+        },
+        {
+            "intent": "localizar_abrigos",
+            "examples": [
+                {
+                    "text": "Onde tem abrigo?"
+                },
+                {
+                    "text": "Onde posso me refugiar?"
+                },
+                {
+                    "text": "Qual abrigo mais perto?"
+                },
+                {
+                    "text": "Tem abrigo na Zona Norte?"
+                },
+                {
+                    "text": "Onde me proteger?"
+                },
+                {
+                    "text": "Me indique um abrigo"
+                },
+                {
+                    "text": "Abrigos disponíveis hoje"
+                },
+                {
+                    "text": "Lista de abrigos"
+                },
+                {
+                    "text": "Tem algum lugar seguro?"
+                },
+                {
+                    "text": "Onde posso ir se minha casa alagar?"
+                },
+                {
+                    "text": "Onde tem abrigo de emergência?"
+                },
+                {
+                    "text": "Qual o local de apoio mais próximo?"
+                }
+            ]
+        },
+        {
+            "intent": "encerrar_conversa",
+            "examples": [
+                {
+                    "text": "Tchau"
+                },
+                {
+                    "text": "Até mais"
+                },
+                {
+                    "text": "Obrigado"
+                },
+                {
+                    "text": "Valeu"
+                },
+                {
+                    "text": "Encerrar"
+                },
+                {
+                    "text": "Pode parar"
+                },
+                {
+                    "text": "Finalizar"
+                },
+                {
+                    "text": "Terminar"
+                },
+                {
+                    "text": "Saindo"
+                },
+                {
+                    "text": "Não preciso mais"
+                },
+                {
+                    "text": "Adeus"
+                },
+                {
+                    "text": "Até logo"
+                }
+            ]
+        }
+    ],
+    "entities": [
+        {
+            "entity": "risco_tipo",
+            "values": [
+                {
+                    "value": "alagamento",
+                    "synonyms": [
+                        "enchente",
+                        "inundação"
+                    ]
+                },
+                {
+                    "value": "deslizamento",
+                    "synonyms": [
+                        "desmoronamento",
+                        "queda de barreira"
+                    ]
+                },
+                {
+                    "value": "bloqueio",
+                    "synonyms": [
+                        "interdição",
+                        "via interditada"
+                    ]
+                },
+                {
+                    "value": "chuva forte",
+                    "synonyms": [
+                        "tempestade",
+                        "chuva intensa"
+                    ]
+                },
+                {
+                    "value": "emergência",
+                    "synonyms": [
+                        "perigo",
+                        "situação crítica"
+                    ]
+                }
+            ]
+        },
+        {
+            "entity": "localizacao",
+            "values": [
+                {
+                    "value": "centro",
+                    "synonyms": [
+                        "região central"
+                    ]
+                },
+                {
+                    "value": "zona norte",
+                    "synonyms": [
+                        "norte",
+                        "parte norte"
+                    ]
+                },
+                {
+                    "value": "zona sul",
+                    "synonyms": [
+                        "sul",
+                        "parte sul"
+                    ]
+                },
+                {
+                    "value": "encosta",
+                    "synonyms": [
+                        "morro",
+                        "ladeira"
+                    ]
+                },
+                {
+                    "value": "área baixa",
+                    "synonyms": [
+                        "baixada",
+                        "vale"
+                    ]
+                }
+            ]
+        },
+        {
+            "entity": "fase_chuva",
+            "values": [
+                {
+                    "value": "antes",
+                    "synonyms": [
+                        "preparação",
+                        "antecipação"
+                    ]
+                },
+                {
+                    "value": "durante",
+                    "synonyms": [
+                        "no momento",
+                        "agora"
+                    ]
+                },
+                {
+                    "value": "depois",
+                    "synonyms": [
+                        "posteriormente",
+                        "após"
+                    ]
+                }
+            ]
+        },
+        {
+            "entity": "saudacao",
+            "values": [
+                {
+                    "value": "olá",
+                    "synonyms": [
+                        "oi",
+                        "bom dia",
+                        "boa tarde",
+                        "boa noite"
+                    ]
+                }
+            ]
+        },
+        {
+            "entity": "agradecimento",
+            "values": [
+                {
+                    "value": "obrigado",
+                    "synonyms": [
+                        "valeu",
+                        "agradeço",
+                        "muito obrigado"
+                    ]
+                }
+            ]
+        }
+    ]
+}

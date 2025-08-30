@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06014A7B-2F5F-0D79-6FD9-321011F14D24" name="T_RHSTU_CARTAO_DE_CREDITO">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:03:34 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_FORMA_PAGTO" id="F7BAD546-7579-7D69-BC82-BE248D742A17">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:16:37 UTC</createdTime>
+<generatorID>A9035317-7894-E015-8DEB-B4BCD068D348</generatorID>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<referedAttribute>4E218399-9591-8C64-43AD-E05DDEC8D090</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_TRANSACAO" id="605B2CF9-40B3-724E-C87F-61F642C4AC19">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:06:28 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_TRANSACAO" id="20DDED39-A8EE-0FC5-70AD-CB9C25ACFB74">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:07:02 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NM_BANDEIRA" id="5D8542F0-4052-4163-12B5-BFAE57D423E9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:03:57 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NR_CARTAO_CREDITO" id="433289FA-EDFA-D7A6-2BFF-CECDED3A35AA">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:04:14 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>50</dataTypePrecision>
+<ownDataTypeParameters>,50,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="DT_VENCIMENTO" id="C9C937A5-0D65-72C5-CE9F-1CC1021E4CB3">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:04:38 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="12542FC0-3B72-94C2-7DF3-B69A3A38C65A" name="T_RHSTU_CARTAO_DE_CREDITO PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:19:33 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>F7BAD546-7579-7D69-BC82-BE248D742A17</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

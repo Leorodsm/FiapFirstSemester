@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Login - SafeRain</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/login.css">
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+</head>
+
+<body>
+    <header class="topo">
+        <img src="assets/img/logo.png" alt="">
+        </nav>
+    </header>
+
+    <main>
+        <div class="login-container">
+            <h2>Login</h2>
+            <form>
+                <div class="input-group">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+
+                <div class="input-group">
+                    <label for="password">Senha:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+
+                <button type="button" onclick="login()">Entrar</button>
+            </form>
+
+            <div class="register-link">
+                <p>Não tem uma conta? <a href="./cadastro.html">Registre-se aqui</a></p>
+            </div>
+        </div>
+    </main>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DB_SAFERAIN" id="A19CB403-782E-09A0-382D-DBF7774C5C7A" version="3.5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 12:21:00 UTC</createdTime>
+<ownerDesignName>DB_SAFERAIN</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>A19CB403-782E-09A0-382D-DBF7774C5C7A</designId>
+</OSDM_Design>

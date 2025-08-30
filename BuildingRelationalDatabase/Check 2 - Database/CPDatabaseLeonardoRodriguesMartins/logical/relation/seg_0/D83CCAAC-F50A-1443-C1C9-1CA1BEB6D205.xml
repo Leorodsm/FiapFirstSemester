@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_LOGRADOURO_UNIDADE_HOSPITALAR" directorySegmentName="seg_0" id="D83CCAAC-F50A-1443-C1C9-1CA1BEB6D205">
+<createdBy>Leonardo</createdBy>
+<createdTime>2025-05-08 21:16:00 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>DFC680F4-1FD8-BA55-799B-620765C6878F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>72D8431E-7EE5-B26D-F197-E5C3B92A514E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>8A769596-8442-81C5-8E8B-9FFE4C17B2D7</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

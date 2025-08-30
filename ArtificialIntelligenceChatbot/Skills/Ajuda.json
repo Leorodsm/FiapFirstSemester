@@ -1,0 +1,580 @@
+{
+  "intents": [
+    {
+      "intent": "agradecimento",
+      "examples": [
+        {
+          "text": "Agradeço"
+        },
+        {
+          "text": "É nois"
+        },
+        {
+          "text": "Legal, valeu"
+        },
+        {
+          "text": "Me ajudou muito, agradeço"
+        },
+        {
+          "text": "Meus parabéns"
+        },
+        {
+          "text": "Muito agradecido"
+        },
+        {
+          "text": "Obrigado"
+        },
+        {
+          "text": "Obrigado pela ajuda"
+        },
+        {
+          "text": "Obrigado robo"
+        },
+        {
+          "text": "Tamo junto"
+        },
+        {
+          "text": "Tmj"
+        },
+        {
+          "text": "Valeu"
+        },
+        {
+          "text": "Vlw pela ajuda"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "compra_produto",
+      "examples": [
+        {
+          "text": "Eu queria ajuda para comprar um celular"
+        },
+        {
+          "text": "Gostaria de comprar um smartwatch, pode me ajudar?"
+        },
+        {
+          "text": "Gostaria de saber qual o melhor tablet para trabalhar com desenho"
+        },
+        {
+          "text": "Me ajude a comprar um tablet?"
+        },
+        {
+          "text": "Preciso de um celular"
+        },
+        {
+          "text": "Preciso de um smartphone"
+        },
+        {
+          "text": "Qual celular você pode me recomendar?"
+        },
+        {
+          "text": "Qual o melhor smartwatch para eu utilizar na academia?"
+        },
+        {
+          "text": "Quero comprar um celular"
+        },
+        {
+          "text": "Quero comprar um smartphone"
+        },
+        {
+          "text": "Você pode me ajudar a comprar um celular?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "entrega_produtos",
+      "examples": [
+        {
+          "text": "Qual o prazo de entrega?"
+        },
+        {
+          "text": "Quando vocês vão entregar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "loja_aberta",
+      "examples": [
+        {
+          "text": "A loja está aberta de sábado?"
+        },
+        {
+          "text": "A loja fica aberta os sete dias da semana?"
+        },
+        {
+          "text": "A loja fica aberta quando?"
+        },
+        {
+          "text": "De segunda-feira vocês estão abertos?"
+        },
+        {
+          "text": "Quais dias da semana vocês estão abertos?"
+        },
+        {
+          "text": "Vocês abrem domingo?"
+        }
+      ],
+      "description": "Intenções: Trabalham em nível de reconhecimento de senteça"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "cidade",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Rio de Janeiro",
+          "synonyms": [
+            "Rio",
+            "rj"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Salvador",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "São Paulo",
+          "synonyms": [
+            "SP"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "dia_semana",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "segunda",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "terça",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "marca",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "apple",
+          "synonyms": [
+            "ios",
+            "iphone",
+            "o da maça"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "lenovo",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "lg",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "motorola",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "samsung",
+          "synonyms": []
+        },
+        {
+          "type": "synonyms",
+          "value": "xiomi",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim-nao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": [
+            "desnecessário",
+            "jamais",
+            "n",
+            "não precisa",
+            "não quero",
+            "negativo",
+            "nem",
+            "nop",
+            "nunca",
+            "para",
+            "só que não",
+            "sqn"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "a vontade",
+            "beleza",
+            "blz",
+            "com certeza",
+            "fechou",
+            "ok",
+            "pode dizer",
+            "podemos",
+            "pode sim",
+            "s",
+            "tá bom",
+            "tá certo"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sys-currency",
+      "values": []
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              },
+              {
+                "text": "Olá, tudo bem? Como posso te ajudar?"
+              },
+              {
+                "text": "Olá sou o BotTDS, precisa de alguma ajuda?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_7_1747492207679",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Ok - Para adicionar o Produto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O produto foi adicionado ao seu carrinho!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1747491698569",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_1_1747492071869"
+    },
+    {
+      "type": "standard",
+      "title": "São Paulo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em até 15 dias úteis, você terá o produto em casa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1747490542108",
+      "conditions": "@cidade:(São Paulo)",
+      "dialog_node": "node_2_1747490657110"
+    },
+    {
+      "type": "standard",
+      "title": "Salvador",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em até 20 dias úteis, você terá o produto em casa"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1747490542108",
+      "conditions": "@cidade:Salvador",
+      "dialog_node": "node_2_1747490733810",
+      "previous_sibling": "node_6_1747490695962"
+    },
+    {
+      "type": "standard",
+      "title": "Qualquer outra cidade",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "O prazo de entrega é de até 30 dias."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1747490542108",
+      "conditions": "@cidade != \"São Paulo\" ||  @cidade != \"Rio de Janeiro\" || @cidade != \"Salvador\"",
+      "dialog_node": "node_2_1747490788721",
+      "previous_sibling": "node_2_1747490733810"
+    },
+    {
+      "type": "standard",
+      "title": "Compra de Produto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Legal, vou te ajudar! Irei fazer algumas perguntas para selecionar o melhor produto para você, ok?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#compra_produto",
+      "dialog_node": "node_3_1747491209575",
+      "previous_sibling": "node_4_1747490542108"
+    },
+    {
+      "type": "standard",
+      "title": "Entrega de Produto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Garantimos um prazo de máximo de 30 dias para entrega do seu produto. Entretanto o prazo pode variar de acordo com a sua localização. Qual a sua localidade?"
+              },
+              {
+                "text": "Para qual cidade iremos entregar seu produto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#entrega_produtos",
+      "dialog_node": "node_4_1747490542108",
+      "previous_sibling": "node_7_1747490907076"
+    },
+    {
+      "type": "standard",
+      "title": "Preferência de Marca",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "E você tem algum valor máximo para compra desse produto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_8_1747491411277",
+      "context": {
+        "marca_escolhida": "@marca.literal"
+      },
+      "conditions": "@marca || @sim-nao:sim",
+      "dialog_node": "node_4_1747491528443"
+    },
+    {
+      "type": "standard",
+      "title": "Rio de Janeiro",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Em até 20 dias úteis, você terá o produto em casa."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1747490542108",
+      "conditions": "@cidade:(Rio de Janeiro)",
+      "dialog_node": "node_6_1747490695962",
+      "previous_sibling": "node_2_1747490657110"
+    },
+    {
+      "type": "standard",
+      "title": "Entrega de Produto & Qualquer Cidade",
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_2_1747490657110"
+      },
+      "conditions": "#entrega_produtos && @cidade",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1747490907076",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Valor Produto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu tenho um celular da $marca_escolhida que é até @sys-currency reais. Gostaria de adicionar ao carrinho?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4_1747491528443",
+      "conditions": "@sys-currency",
+      "dialog_node": "node_7_1747491698569"
+    },
+    {
+      "type": "standard",
+      "title": "Agradecimento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Obrigado você pela preferência!"
+              },
+              {
+                "text": "Posso ajudar em algo mais?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#agradecimento",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_7_1747492207679",
+      "previous_sibling": "node_3_1747491209575"
+    },
+    {
+      "type": "standard",
+      "title": "Sim",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Você tem alguma preferência por alguma marca de celular?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_3_1747491209575",
+      "conditions": "@sim-nao:sim",
+      "dialog_node": "node_8_1747491411277"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "Essa skill ajuda o cliente a encontrar o melhor aparelho para ele",
+  "name": "Ajuda"
+}

@@ -1,0 +1,271 @@
+/* Reset e Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #0685D1;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #ffea00;
+}
+
+/* Header */
+header.topo {
+    background-color: #ffffff;
+    color: #0685D1;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    height: 100px;
+    filter: none; /* Remove filtro para cor original do logotipo */
+}
+
+.icon-header {
+    width: 28px;
+    height: 28px;
+    margin: 0 0 4px 0;
+    vertical-align: middle;
+}
+
+header.topo h1 {
+    margin-bottom: 10px;
+    color: #0685D1;
+}
+
+header.topo nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+header.topo nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: clamp(14px, 2.5vw, 20px);
+    font-weight: bold;
+    background: linear-gradient(#04D5FB, #0674C9);
+    border-radius: 20px 5px 20px 5px;
+    padding: 10px;
+    width: 200px;
+    min-width: 120px;
+    color: #ffffff; /* Cor igual à dos ícones */
+    transition: color 0.2s;
+    text-decoration: none;
+    min-width: 60px;
+    transition: transform 0.5s ease, background-color 0.5s ease, color 0.5s ease;   
+
+}
+
+header.topo nav a:hover {    
+    background: linear-gradient(#D9F9FF,#009DFF);
+}
+
+/* Hero Section */
+.hero-alertas-wrapper {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/chuva.png') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background: none;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h2, .hero p {
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.hero p {
+    margin-top: 10px;
+}
+
+/* Seções genéricas */
+.section-funcionalidades {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+/* Cartão de funcionalidade com visual suave e arredondado */
+.section-funcionalidades .faq-item {
+    background-color: #fff;
+    border: 1.5px solid #3e6dd8;
+    border-radius: 12px;
+    padding: 24px 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.section-funcionalidades .faq-item:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 14px rgba(0,0,0,0.1);
+}
+
+.section-funcionalidades .faq-item h3 {
+    font-size: 1.2em;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.section-funcionalidades .faq-item p {
+    font-size: 1.02em;
+    color: #333;
+    line-height: 1.6;
+}
+
+.section-funcionalidades .faq-item a {
+    color: #3066cc;
+    font-weight: bold;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.section-funcionalidades .faq-item a:hover {
+    color: #1b47aa;
+    text-decoration: underline;
+}
+
+/* Footer */
+footer.rodape {
+  background-color: #157ab9;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+  margin-top: auto;
+  box-shadow: 0 -2px 5px rgba(0,0,0,0.1);
+}
+
+/* Responsividade */
+/* EXS (320px até 425px) */
+@media (min-width: 320px) and (max-width: 425px) {
+    header.topo nav {
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;         
+        overflow-x: auto;   
+        gap: 10px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    header.topo nav a {
+        flex-direction: row;
+        align-items: center;
+        min-width: 120px;          
+        white-space: nowrap;
+        font-size: 1rem;
+        padding: 8px 10px;
+    }
+    .icon-header {
+        width: 20px;
+        height: 20px;
+        margin: 0 8px 0 0;
+    }
+}
+
+/* Small devices (481px a 768px) */
+@media (min-width: 481px) and (max-width: 768px) {
+    header.topo {
+        padding: 10px 4px;
+    }
+    header.topo h1 {
+        font-size: 1.3rem;
+    }
+    header.topo nav {
+        gap: 10px;
+    }
+    .icon-header {
+        width: 20px;
+        height: 20px;
+    }
+    header.topo nav a {
+        font-size: 1rem;
+        padding: 6px 2px;
+        min-width: 40%;
+    }
+}
+
+/* Medium devices (769px a 1024px) */
+@media (min-width: 769px) and (max-width: 1024px) {
+    header.topo {
+        padding: 12px 6px;
+    }
+    header.topo h1 {
+        font-size: 1.4rem;
+    }
+    header.topo nav {
+        gap: 10px;
+    }
+    .icon-header {
+        width: 24px;
+        height: 24px;
+    }
+    header.topo nav a {
+        font-size: 1rem;
+        padding: 6px 2px;
+        min-width: 48px;
+    }
+}
+
+/* Large devices (1025px a 1280px) */
+@media (min-width: 1025px) and (max-width: 1280px) {
+
+}
+
+/* Extra-Large devices (1281px+) */
+@media (min-width: 1281px) {
+    .integrantes-lista {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 40px;
+    }
+}

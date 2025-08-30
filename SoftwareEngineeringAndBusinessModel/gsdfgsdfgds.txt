@@ -1,0 +1,60 @@
+
+= Aplicativo Rede Social com acesso a Mangás e Manwas = 
+
+--- O QUE = 
+
+- SITE/APP PARA PESSOAS LEREM MANGÁ E MANWAS DE FORMA FACIL E RAPIDA. O APLICATIVO FUNCIONARÁ POR MENSALIDADE LIBERANDO ACESSO
+A UMA BIBLIOTECA DE MANGÁS E TAMBÉM TERÁ INTERAÇÃO ENTRE USUÁRIOS.
+
+* PARCERIAS = 
+
+Parcerias com Editores e Autores
+
++ Editoras de Mangás e Manhwas: Parcerias com editoras que publicam mangas e manhwas podem garantir acesso legal a uma vasta
+biblioteca de títulos. 
+
++ Parcerias com Plataformas de Streaming de Vídeo: Parcerias com serviços de streaming como Crunchyroll e Funimation. Muitas 
+obras têm adaptações em anime, então uma colaboração poderia permitir que os leitores tivessem acesso aos mangás relacionadas
+aos animes que estão consumindo.
+
++ Parcerias com Influenciadores e Comunidades: Para divulgação do Site e Aplicativo.
+
++ Parcerias com Tradutores e Agências de Tradução: Para que o aplicativo/site englobe também obras que não estão traduzidas
+pela editora original.
+
+* PRINCIPAIS ATIVIDADES =
+
++ Ler mangás/manwas
++ Catálogo de títulos
++ Contagem de capitulos
++ Sistema de favoritos
++ Notificações de novos capitulos e titulos
++ Comentários e Avaliações em novos capitulos e titulos
++ Interação social entre usuários
++ Customização de perfil onde voce poderá customizar seu perfil e mostrar para os outros usuarios seus 
+titulos favoritos, o que está lendo e o que planeja ler.
+
+* RECURSOS PRINCIPAIS
+
++ Desenvolvedores de software
++ Designers para projetar o UX/UI
++ Locação de servidor
++ Equipe de resolução de problemas
+
+
+--- PROPOSTA DE VALOR
+
+- UM APLICATIVO/SITE PARA LER MANGÁS E MANHWAS É OFERECER AOS USUÁRIOS UMA EXPERIÊNCIA DE LEITURA ÚNICA, CONVENIENTE E 
+PERSONALIZADA, COM ACESSO FÁCIL A UMA GRANDE VARIEDADE DE TÍTULOS, INTERATIVIDADE COM A COMUNIDADE DE FÃS.     
+
+--- PARA QUEM = 
+
+- JOVENS ADULTOS E ADOLESCENTES (15–40 ANOS) COM INTERESSE EM CULTURA POP ASIÁTICA, QUADRINHOS E ENTRETENIMENTO DIGITAL.
+
+Como = 
+
+- APLICATIVO E SITE DESENVOLVIDOS E HOSPEDADOS EM ALGUM SERVIDOR DE ACESSO PÚBLICO.
+
+Quanto =
+
+- 10 REAIS MENSALMENTE 

@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="IMREA HC" id="8CAB9005-F779-ACB4-050B-8B3702F9F4CA" version="3.5">
+<createdBy>Leonardo</createdBy>
+<createdTime>2025-05-14 15:56:30 UTC</createdTime>
+<ownerDesignName>Challenge</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>8CAB9005-F779-ACB4-050B-8B3702F9F4CA</designId>
+</OSDM_Design>

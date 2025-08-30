@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_FORMA_PAGAMENNTO_CONVENIO_MEDICO" directorySegmentName="seg_0" id="91395B79-403D-DC9F-428A-9B2E3A8F3B20">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:15:51 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>55F73CDA-78DE-9172-EC31-1DE605267B8F</sourcePk>
+<arc>177D1BFB-1CED-FD47-6F57-A946F20DCB7A</arc>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>4E669F69-BDAD-1338-53E6-A52CD1549F1D</sourceEntity>
+<targetCardinalityString>1</targetCardinalityString>
+<targetEntity>BA7BF9E8-E3F0-F8E8-27C1-6B1C3A73BAEC</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

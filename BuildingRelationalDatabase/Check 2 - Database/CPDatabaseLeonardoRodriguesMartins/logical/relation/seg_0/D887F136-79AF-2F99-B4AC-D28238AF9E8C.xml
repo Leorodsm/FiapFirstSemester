@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="FK_LOGRADOURO_ENDERECO_PACIENTE" directorySegmentName="seg_0" id="D887F136-79AF-2F99-B4AC-D28238AF9E8C">
+<createdBy>Leonardo</createdBy>
+<createdTime>2025-05-08 21:16:51 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<sourcePk>DFC680F4-1FD8-BA55-799B-620765C6878F</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>72D8431E-7EE5-B26D-F197-E5C3B92A514E</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>62D01CD6-2F78-C150-EDE6-828E39ACBC85</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

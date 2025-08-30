@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SafeRain - Home</title>
+    <link rel="stylesheet" href="./assets/css/estilo.css">
+</head>
+<body>
+
+    <header class="topo">
+        <img src="assets/img/logo.png" alt="">
+        <nav>
+            <a href="index.html">
+                <img src="./assets/img/home.png" alt="Home" class="icon-header"> Home
+            </a>
+            <a href="integrantes.html">
+                <img src="./assets/img/integrantes.png" alt="Integrantes" class="icon-header"> Integrantes
+            </a>
+            <a href="faq.html">
+                <img src="./assets/img/faq.png" alt="FAQ" class="icon-header"> FAQ
+            </a>
+            <a href="contato.html">
+                <img src="./assets/img/contato.png" alt="Contato" class="icon-header"> Contato
+            </a>
+            <a href="integrantes.html">
+                <img src="./assets/img/funcionalidades.png" alt="icone de Funcionalidades" class="icon-header">Funcionalidades
+            </a>
+    </header>
+    </header>
+
+    <main>
+        <section class="hero-alertas-wrapper">
+            <div class="hero">
+                <h2>Proteja-se de Chuvas Intensas</h2>
+                <p>Informações, alertas e orientações para sua segurança.</p>
+            </div>
+            <div class="alertas">
+                <h2>Alertas Ativos</h2>
+                <div class="card-alerta">
+                    <h3>🌊 Alagamento</h3>
+                    <p>Risco alto no centro.</p>
+                </div>
+                <div class="card-alerta">
+                    <h3>⛰️ Deslizamento</h3>
+                    <p>Risco nas encostas da Zona Norte.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="info-emergencia">
+            <h2>Saiba mais o que fazer em situações de:</h2>
+
+            <div class="tabs">
+                <button class="tab-btn active" onclick="abrirAba('deslizamento')">Deslizamentos</button>
+                <button class="tab-btn" onclick="abrirAba('alagamento')">Alagamentos</button>
+                <button class="tab-btn" onclick="abrirAba('chuvas')">Chuvas Fortes</button>
+            </div>
+
+            <div id="deslizamento" class="tab-content">
+                <h3>Deslizamentos de Terra: Causas, Riscos e Prevenção</h3>
+                <hr />
+                <p><strong>🌧️ O Perigo que Vem das Encostas</strong></p>
+                <p>Deslizamentos são movimentos de terra em encostas, geralmente causados por chuvas, desmatamento ou ocupações irregulares.</p>
+                <br>
+                <hr />
+                    
+                <p><strong>🚜 Principais Causas</strong></p>
+                <br>
+                <ul>
+                    <li><strong>Chuvas Prolongadas 💦</strong></li>
+
+                    <li><strong>Desmatamento 🌳</strong></li>
+
+                    <li><strong>Ocupação Irregula 🏚️</strong></li>
+
+                    <li><strong>Cortes no Morro ⚠️</strong></li>
+
+                    <li><strong>Vazamentos de Água 💧</strong></li>
+                </ul>
+                <hr />
+
+                <p><strong>☠️ Riscos Graves como</strong></p>
+                <br>
+                <ul>
+                    <li><strong>Soterramentos Relâmpago ⏳</strong></li>
+
+                    <li><strong>Destruição em Cadeia 🏘️</strong></li>
+
+                    <li><strong>Isolamento de Comunidades 🚑</strong></li>
+                </ul>
+                <hr />
+
+                <p><strong>🛡️ Prevenção e Mitigação</strong></p>
+                <br>
+                <ul>
+                    <li><strong>✔ Para moradores ficarem atentos:</strong>
+                        <ul>
+                            <li>Sinais de Alerta: Rachaduras no solo, muros inclinados.</li>
+
+                            <li>Reforço Estrutural: Muros de contenção com drenagem.</li>
+
+                            <li>Monitoramento Climático: Aplicativos como o SafeRain avisam sobre chuvas críticas.</li>
+                        </ul>
+                    </li>
+
+                    <li><strong>✔ Em Emergências:</strong>
+                        <ul>
+                            <li>NÃO tente salvar pertences — deslizamentos são imprevisíveis e podem ter múltiplas quedas de terra.</li>
+                        </ul>
+                    </li>
+                </ul>
+
+                <h2>Em caso de emergência, entre em contato com os devidos canais!</h2>
+                <p><strong>Polícia Militar: </strong> 190</p>
+                <p><strong>Corpo de Bombeiros: </strong> 193</p>
+                <p><strong>SAMU: </strong> 192</p>
+            </div>
+
+            <div id="alagamento" class="tab-content">
+                <h3>Alagamentos: Quando a Água Toma as Ruas</h3>
+                <hr />
+                <p><strong>💦 O Problema da Drenagem Urbana</strong></p>
+                <p>Alagamentos são diferentes de enchentes: ocorrem quando a chuva não escoa devido à impermeabilização do solo ou falhas na infraestrutura.</p>
+                <hr />
+
+                <p><strong>🚱 Quais são as causas?</strong></p>
+                <br>
+                <ul>
+                    <li><strong>Lixo Urbano 🗑️</strong>
+                    </li>
+
+                    <li><strong>Solo Impermeável</strong> 
+                    </li>
+
+                    <li><strong>Drenagem Obsoleta 🏚️</strong></li>
+                </ul>
+                <hr />
+
+                <p><strong>⚠️ Perigos Imediatos:</strong></p>
+                <br>
+                <ul>
+                    <li><strong>Correntezas Invisíveis 🌊</strong> </li>
+
+                    <li><strong>Contaminação da água🦠</strong>
+                       </li>
+                    </li>
+
+                    <li><strong>Perdas Econômicas 💸</strong></li>
+                </ul>
+                <hr />
+
+                <p><strong>🛡️ Como se proteger</strong></p>
+                <br>
+                <ul>
+                    <li><strong>Nunca atravesse alagamentos: </strong>
+                        Evite andar ou dirigir por áreas alagadas
+                    </li>
+
+                    <li><strong>Proteja sua casa: </strong>
+                        Instale barreiras físicas e mantenha o terreno elevado!
+                    </li>
+                </ul>
+
+                <h2>Em caso de emergência, entre em contato com os devidos canais!</h2>
+                <p><strong>Polícia Militar: </strong> 190</p>
+                <p><strong>Corpo de Bombeiros: </strong> 193</p>
+                <p><strong>SAMU: </strong> 192</p>
+            </div>
+
+            <div id="chuvas" class="tab-content">
+                <h3>Chuvas Extremas: O Que Fazer Quando o Céu Desaba</h3>
+                <hr>
+                <p><strong>⚡ Temporais no Contexto Climático</strong></p>
+                <p>O Brasil registrou um aumento de 30% nos eventos de chuva extrema entre 2000 e 2023 (dados do INMET).
+                    Em 2023, o litoral norte de SP teve 680 mm em 24h — o equivalente a 3 meses de chuva em apenas UM
+                    DIA.</p>
+                <hr>
+                <p><strong>🌪️ Fatores Agravantes</strong></p>
+                <br>
+                <ul>
+                    <li><strong>Ilhas de Calor 🏙️:</strong> Regiões com muito concreto podem estar 5°C mais quentes, intensificando nuvens de tempestade.</li>
+
+                    <li><strong>Zonas de Risco:</strong> Encostas, margens de rios e áreas abaixo de barragens são as mais vulneráveis.</li>
+                </ul>
+                <hr>
+
+                <p><strong>☠️ Riscos Associados</strong></p>
+                <br>
+                <ul>
+                    <li><strong>Raios ⚡:</strong> O Brasil registra 100 milhões de raios/ano (1º lugar no mundo). Em
+                        2022, 110 pessoas morreram por descargas.</li>
+
+                    <li><strong>Ventos 🌪️:</strong> Rajadas acima de 80 km/h arrancam telhados e derrubam árvores.</li>
+                </ul>
+                <hr>
+
+                <p><strong>🛡️ Proteção</strong></p>
+                <br>
+                <ul>
+                    <li><strong>✔ Em Casa:</strong>
+                        <ul>
+                            <li>Desligue eletrônicos: Use filtros de linha para evitar queimas por surtos.</li>
+
+                            <li>Evite vazamentos: Feche torneiras externas e proteja janelas com persianas.</li>
+                        </ul>
+                    </li>
+
+                    <li><strong>✔ Na Rua:</strong>
+                        <ul>
+                            <li>Abrigue-se: Peça ajuda para ficar dentro de um prédio ou residência local, nunca em
+                                árvores ou estruturas metálicas.</li>
+
+                            <li>Se estiver dirigindo: Pare em local seguro e elevado, longe de áreas que possam
+                                alagar — 30 cm de água podem arrastar um carro.</li>
+                        </ul>
+                    </li>
+                </ul>
+                
+                <h2>Em caso de emergência, entre em contato com os devidos canais!</h2>
+                <p><strong>Polícia Militar: </strong> 190</p>
+                <p><strong>Corpo de Bombeiros: </strong> 193</p>
+                <p><strong>SAMU: </strong> 192</p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <p>© 2025 SafeRain - Todos os direitos reservados</p>
+    </footer>
+
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

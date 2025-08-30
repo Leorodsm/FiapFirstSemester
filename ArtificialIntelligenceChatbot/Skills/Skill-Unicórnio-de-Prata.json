@@ -1,0 +1,632 @@
+{
+  "intents": [
+    {
+      "intent": "endereco",
+      "examples": [
+        {
+          "text": "Aonde fica a loja?"
+        },
+        {
+          "text": "Endereço"
+        },
+        {
+          "text": "Gostaria de saber o endereço da loja"
+        },
+        {
+          "text": "Local"
+        },
+        {
+          "text": "Localização"
+        },
+        {
+          "text": "Onde posso comprar?"
+        },
+        {
+          "text": "Posso encontrar onde a loja?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "horário_funcionamento",
+      "examples": [
+        {
+          "text": "como funciona ?"
+        },
+        {
+          "text": "funcionamento"
+        },
+        {
+          "text": "qual o horário do funcionamento ?"
+        },
+        {
+          "text": "que horas abre ?"
+        },
+        {
+          "text": "que horas abre a sua loja ?"
+        },
+        {
+          "text": "que horas vocês começam atender ?"
+        }
+      ],
+      "description": "a hora que abre, e a hora que fecha"
+    },
+    {
+      "intent": "inicio",
+      "examples": [
+        {
+          "text": "alo"
+        },
+        {
+          "text": "começar"
+        },
+        {
+          "text": "inicio"
+        },
+        {
+          "text": "oeeeeeeeee"
+        },
+        {
+          "text": "oi"
+        },
+        {
+          "text": "oi?"
+        },
+        {
+          "text": "oiiiii"
+        },
+        {
+          "text": "ola"
+        },
+        {
+          "text": "opa"
+        },
+        {
+          "text": "opan"
+        },
+        {
+          "text": "/start"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "reservar_vestido",
+      "examples": [
+        {
+          "text": "Alugar"
+        },
+        {
+          "text": "Necessito de um vestido"
+        },
+        {
+          "text": "Preciso de uma roupa"
+        },
+        {
+          "text": "Preciso de um vestido"
+        },
+        {
+          "text": "Quero alugar uma roupa"
+        },
+        {
+          "text": "Quero reservar um vestido"
+        },
+        {
+          "text": "Quero um vestido"
+        },
+        {
+          "text": "Reserva"
+        }
+      ],
+      "description": "Reservando os vestidos da loja"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "comprimento",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Curto",
+          "synonyms": [
+            "Curto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Longo",
+          "synonyms": [
+            "Longo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Medio",
+          "synonyms": [
+            "Medio"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "cores",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Azul",
+          "synonyms": [
+            "azul"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Carmim",
+          "synonyms": [
+            "carmim"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Marrom",
+          "synonyms": [
+            "marrom"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Preto",
+          "synonyms": [
+            "preto"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Vermelho",
+          "synonyms": [
+            "vermelho"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "estampas",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Cavalo nas Colinas",
+          "synonyms": [
+            "2",
+            "Cavalo"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Jardim florido",
+          "synonyms": [
+            "4",
+            "Jardim"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Natal no Canada",
+          "synonyms": [
+            "3",
+            "Natal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Unicório Saltitante",
+          "synonyms": [
+            "1",
+            "Unicórnio"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "marca",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Shein",
+          "synonyms": [
+            "shein"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Youcom",
+          "synonyms": [
+            "youcom"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Zara",
+          "synonyms": [
+            "zara"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "sim-não",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "não",
+          "synonyms": [
+            "jamais",
+            "n",
+            "nao",
+            "Não",
+            "negativo",
+            "never",
+            "noup",
+            "nunca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "com certeza",
+            "s",
+            "Sim",
+            "uhun",
+            "Yes"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem Vindo!",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá, seja bem vinda a nossa loja Unicórnio Prata! 🦄\n\nAqui reservamos vestidos de alguel! Gostaria de:\n\n- Alugar um vestido?\n- Sabe aonde fica nossa loja?\n- Que horários funcionamos presencialmente?"
+              },
+              {
+                "text": "- Como posso te ajudar ?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "welcome || #inicio",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "- Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "- Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_10_1747511839096",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_8_1747511094815",
+      "context": {
+        "comprimento": "@comprimento"
+      },
+      "conditions": "@comprimento",
+      "event_name": "input",
+      "dialog_node": "handler_10_1747511094824"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Escolha uma cor para seu vestido:",
+            "options": [
+              {
+                "label": "1 - Marrom",
+                "value": {
+                  "input": {
+                    "text": "Marrom"
+                  }
+                }
+              },
+              {
+                "label": "2 - Preto",
+                "value": {
+                  "input": {
+                    "text": "Preto"
+                  }
+                }
+              },
+              {
+                "label": "3 - Carmin",
+                "value": {
+                  "input": {
+                    "text": "Carmin"
+                  }
+                }
+              },
+              {
+                "label": "4 - Azul",
+                "value": {
+                  "input": {
+                    "text": "Azul"
+                  }
+                }
+              },
+              {
+                "label": "5 - Vermelho",
+                "value": {
+                  "input": {
+                    "text": "Vermelho"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_5_1747511153999",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1747511154000",
+      "previous_sibling": "handler_5_1747511154000"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Escolha uma estampa:",
+            "options": [
+              {
+                "label": "1 - Unicórnio Saltitante ",
+                "value": {
+                  "input": {
+                    "text": "Unicórnio Saltitante "
+                  }
+                }
+              },
+              {
+                "label": "2 - Cavalo nas Colinas ",
+                "value": {
+                  "input": {
+                    "text": "Cavalo nas Colinas"
+                  }
+                }
+              },
+              {
+                "label": "3 - Natal no Canada ",
+                "value": {
+                  "input": {
+                    "text": "Natal no Canada"
+                  }
+                }
+              },
+              {
+                "label": "4 - Jardim Florido",
+                "value": {
+                  "input": {
+                    "text": "Jardim Florido"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_4_1747511325819",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1747511325819",
+      "previous_sibling": "handler_9_1747511325819"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "title": "Escolha o tamanho do vestido:",
+            "options": [
+              {
+                "label": "- Longo: 400,00 reais",
+                "value": {
+                  "input": {
+                    "text": "Longo"
+                  }
+                }
+              },
+              {
+                "label": "- Médio: 350,00 reais",
+                "value": {
+                  "input": {
+                    "text": "Médio"
+                  }
+                }
+              },
+              {
+                "label": "- Curto: 300,00 reais",
+                "value": {
+                  "input": {
+                    "text": "Curto"
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "parent": "slot_8_1747511094815",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1747511094824",
+      "previous_sibling": "handler_10_1747511094824"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1747511153999",
+      "context": {
+        "cores": "@cores.literal"
+      },
+      "conditions": "@cores.literal",
+      "event_name": "input",
+      "dialog_node": "handler_5_1747511154000"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1747511325819",
+      "context": {
+        "estampas": "@estampas.literal"
+      },
+      "conditions": "@estampas.literal",
+      "event_name": "input",
+      "dialog_node": "handler_9_1747511325819"
+    },
+    {
+      "type": "standard",
+      "title": "Endereço",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- Minha loja fica localizada na: Av Águas Rasas, 879! "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#endereco",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_10_1747511839096",
+      "previous_sibling": "node_5_1747505530809"
+    },
+    {
+      "type": "frame",
+      "title": "Reservando um Vestido",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- Vestido $cores, $comprimento com a estampa: $estampas disponível! Reservado!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#reservar_vestido",
+      "dialog_node": "node_3_1747511062485",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Horário de Funcionamento",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "- A loja abre 10h e fecha 18h. \n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#horário_funcionamento",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_5_1747505530809",
+      "previous_sibling": "node_3_1747511062485"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1747511062485",
+      "variable": "$estampas",
+      "dialog_node": "slot_4_1747511325819",
+      "previous_sibling": "slot_5_1747511153999"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1747511062485",
+      "variable": "$cores",
+      "dialog_node": "slot_5_1747511153999",
+      "previous_sibling": "slot_8_1747511094815"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1747511062485",
+      "variable": "$comprimento",
+      "dialog_node": "slot_8_1747511094815"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "uma loja para vender vestidos.",
+  "name": "Skill Unicórnio de Prata"
+}

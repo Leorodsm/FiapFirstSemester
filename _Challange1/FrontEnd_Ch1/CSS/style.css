@@ -1,0 +1,1009 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e7e7e7;
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.header--instituto {
+    background: #0D87D0;
+    padding: 32px 0 24px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0 0 8px 8px;
+}
+
+.nav--instituto {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.header--logo {
+    width: 90px;
+    height: auto;
+}
+
+.header--titulo {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.header--instituto-nome {
+    font-size: 1.4rem;
+    font-weight: 400;
+    margin: 0;
+    line-height: 1.2;
+}
+
+.header--instituto-reabilitacao {
+    font-weight: 700;
+}
+
+.header--instituto-sub {
+    font-size: 1rem;
+    margin-top: 2px;
+    color: #0D87D0;
+}
+
+.main--conteudo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+    padding-bottom: 80px; /* espaço para o footer fixo */
+}
+
+.article--boas-vindas {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section--mensagem {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.section--mensagem-titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.section--mensagem-texto {
+    font-size: 1.1rem;
+    color: #222;
+}
+
+.aside--cadastro {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.button--cadastro {
+    background: #0D87D0;
+    color: #fff;
+    border: 1px solid #0D87D0;
+    border-radius: 6px;
+    padding: 16px 64px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.08s, color 0.08s, border 0.08s;
+    min-width: 220px;
+}
+.button--cadastro:hover {
+    background: #fff;
+    color: #0D87D0;
+    border: 1px solid #0D87D0;
+}
+
+.footer--instituto {
+    background: #e0e0e0;
+    padding: 12px 0;
+    text-align: center;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    margin-top: 0;
+    z-index: 100;
+}
+
+.footer--info {
+    font-size: 1rem;
+    color: #222;
+}
+
+.footer--privacidade {
+    color: #222;
+    text-decoration: underline;
+}
+
+.article--cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.section--cadastro-mensagem {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.section--cadastro-titulo {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.section--cadastro-texto {
+    font-size: 1.1rem;
+    color: #222;
+}
+
+.aside--cadastro-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.form--cadastro {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.form--retangulo {
+    display: flex;
+    flex-direction: column;
+    background: #ededed;
+    border-radius: 6px;
+    padding: 24px 32px;
+    gap: 18px;
+    margin-bottom: 32px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    justify-content: center;
+    align-items: center;
+}
+
+.form--grupo {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.form--label {
+    min-width: 180px;
+    text-align: right;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #444;
+}
+
+.form--input {
+    flex: 1;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 4px;
+    background: #e0e0e0;
+    font-size: 1rem;
+    outline: none;
+    transition: box-shadow 0.2s;
+}
+.form--input:focus {
+    box-shadow: 0 0 0 2px #148bd6;
+    background: #fff;
+}
+
+.form--grupo-botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+    margin-top: 16px;
+}
+
+.button--voltar-link {
+    display: flex;
+    text-decoration: none;
+}
+
+.button--voltar {
+    background: #fff;
+    color: #0D87D0;
+    border: 1.5px solid #0D87D0;
+    border-radius: 6px;
+    padding: 16px 64px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.08s, color 0.08s, border 0.08s;
+    min-width: 220px;
+    text-decoration: none;
+    width: 320px;
+    box-sizing: border-box;
+}
+.button--voltar:hover {
+    background: #0D87D0;
+    color: #fff;
+    border: 1.5px solid #0D87D0;
+    text-decoration: none;
+}
+
+.button--cadastro {
+    min-width: 220px;
+}
+.button--voltar {
+    min-width: 220px;
+}
+
+.aside--menu-botoes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-top: 32px;
+}
+.button--menu-link {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+}
+.article--menu-principal .button--cadastro {
+    width: 320px;
+    min-width: 220px;
+}
+
+.section--menu-mensagem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.section--faq-mensagem, .section--faq-pergunta-mensagem, .section--contatos-mensagem, .section--devs-mensagem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.aside--faq-lista, .aside--contatos-lista, .aside--devs-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 18px;
+    margin-top: 32px;
+}
+
+.section--consultas-mensagem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.aside--consultas-lista {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 32px;
+}
+
+.consultas--retangulo {
+    background: #F8F8F8;
+    border: 1px solid #D9D9D9;  
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    padding: 32px 0 24px 0;
+    min-width: 500px;
+    max-width: 700px;
+    margin-bottom: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.consultas--titulo-consulta {
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.consultas--hora {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+.consultas--link-label {
+    font-size: 1.1rem;
+    color: #222;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.consultas--link {
+    color: #e53935;
+    font-weight: 600;
+    text-decoration: underline;
+    cursor: pointer;
+    text-align: center;
+}
+
+.consultas--botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 32px;
+    margin-top: 32px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.consultas--botoes .button--voltar,
+.consultas--botoes .button--cadastro {
+    width: 320px;
+    min-width: 220px;
+}
+
+.section--agenda-mensagem {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 32px;
+}
+
+.agenda--container-lista {
+    width: 700px;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin: 0 auto 32px auto;
+}
+
+.agenda--linha {
+    background: #F8F8F8;
+    border: 1px solid #D9D9D9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    padding: 0 24px;
+    min-width: 100%;
+    height: 64px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.agenda--medico {
+    flex: 2;
+    text-align: left;
+    font-weight: 700;
+}
+
+.agenda--data-botao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 16px;
+    flex: 1;
+    justify-content: flex-end;
+}
+
+.agenda--data {
+    font-weight: 700;
+    margin-right: 8px;
+}
+
+.agenda--botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.agenda--botoes .button--voltar {
+    width: 320px;
+    min-width: 220px;
+}
+
+.article--agenda .button--cadastro {
+    padding: 8px 32px;
+    height: 36px;
+    font-size: 1.08rem;
+    min-width: 120px;
+    width: auto;
+    align-self: flex-end;
+    box-sizing: border-box;
+}
+
+.faq--container-lista {
+    width: 700px;
+    max-width: 90vw;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin: 0 auto 48px auto;
+}
+
+.faq--card {
+    background: #e7e7e7;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    padding: 18px 24px 14px 24px;
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 1px solid #ededed;
+}
+
+.faq--pergunta-titulo {
+    font-size: 1.15rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: #222;
+}
+
+.faq--pergunta-resposta {
+    font-size: 1rem;
+    color: #444;
+    font-weight: 400;
+    margin: 0;
+}
+
+.faq--retangulo {
+    background-color: #F8F8F8;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: 1px solid #D9D9D9
+}
+
+/* Botões do FAQ e Agenda igual Consultas */
+.faq--botoes, .agenda--botoes, .consultas--botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.faq--botoes .button--voltar,
+.faq--botoes .button--cadastro,
+.agenda--botoes .button--voltar,
+.agenda--botoes .button--cadastro,
+.consultas--botoes .button--voltar,
+.consultas--botoes .button--cadastro {
+    width: 320px;
+    min-width: 220px;
+}
+
+.devs--avatar-foto {
+    width: 140px;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 12px;
+    background: #0D87D0;
+    border: 2px solid #0D87D0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.devs--linha {
+    gap: 36px;
+}
+
+.devs--linha {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 28px;
+    margin-bottom: 28px;
+    width: 100%;
+    max-width: 520px;
+}
+
+.devs--avatar-foto {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 12px;
+    background: #0D87D0;
+    border: 2px solid #0D87D0;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.devs--info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    min-width: 0;
+}
+
+.devs--info > span {
+    font-size: 1.08rem;
+    margin-bottom: 8px;
+    display: block;
+}
+
+.devs--icones-turma {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    margin-top: 2px;
+}
+
+.devs--turma {
+    font-weight: 700;
+    margin-left: 18px;
+    font-size: 1.08rem;
+    color: #fff;
+    background: #0D87D0;
+    border-radius: 6px;
+    padding: 6px 16px;
+    display: inline-block;
+    letter-spacing: 1px;
+    box-shadow: 0 1px 4px rgba(20,139,214,0.08);
+}
+
+.devs--botoes {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+    width: 100%;
+}
+
+/* Modal flutuante para desenvolvedores */
+.devs--modal-bg {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0,0,0,0.55);
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.devs--modal {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+    padding: 40px 48px 32px 48px;
+    min-width: 340px;
+    max-width: 420px;
+    width: 90vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    animation: devsModalFadeIn 0.2s;
+}
+
+@keyframes devsModalFadeIn {
+    from { opacity: 0; transform: scale(0.96); }
+    to { opacity: 1; transform: scale(1); }
+}
+
+.devs--modal-fechar {
+    position: absolute;
+    top: 18px;
+    right: 22px;
+    background: none;
+    border: none;
+    font-size: 2.2rem;
+    color: #0D87D0;
+    cursor: pointer;
+    font-weight: 700;
+    transition: color 0.15s;
+}
+.devs--modal-fechar:hover {
+    color: #e53935;
+}
+
+.devs--modal-foto {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 16px;
+    background: #0D87D0;
+    border: 3px solid #0D87D0;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 8px rgba(20,139,214,0.10);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.devs--modal-nome {
+    font-size: 1.25rem;
+    font-weight: 700;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.devs--modal-rm {
+    font-size: 1.08rem;
+    color: #fff;
+    background: #0D87D0;
+    border-radius: 6px;
+    padding: 6px 16px;
+    display: inline-block;
+    margin-bottom: 10px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.devs--saiba-mais {
+    background: #0D87D0;
+    color: #fff;
+    font-size: 1.2rem ;
+    border-radius: 5px;
+    padding: 5px 20px;
+    border: 1.5px solid #0D87D0;
+    text-decoration: none;
+}
+
+.devs--saiba-mais {
+    background: #0D87D0;
+    color: #fff;
+    border: 1px solid #0D87D0;
+    border-radius: 6px;
+    padding: 8px 32px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.08s, color 0.08s, border 0.08s;
+    min-width: 220px;
+}
+.devs--saiba-mais:hover {
+    background: #fff;
+    color: #0D87D0;
+    border: 1px solid #0D87D0;
+}
+
+.devs--modal-icones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 18px;
+    margin: 12px 0 10px 0;
+    justify-content: center;
+}
+.devs--modal-icones a img {
+    width: 54px;
+    height: 54px;
+    transition: transform 0.12s;
+}
+.devs--modal-icones a img:hover {
+    transform: scale(1.10);
+}
+
+.devs--modal-turma {
+    font-weight: 700;
+    color: #222;
+    font-size: 1.12rem;
+    margin-top: 6px;
+    letter-spacing: 1px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .devs--modal {
+        padding: 24px 8vw 18px 8vw;
+        min-width: 0;
+        max-width: 98vw;
+    }
+    .devs--modal-foto {
+        width: 120px;
+        height: 120px;
+    }
+    .devs--modal-icones a img {
+        width: 38px;
+        height: 38px;
+    }
+}
+
+/* FAQ - Campo de cadastrar pergunta ainda maior e centralizado */
+.faq--textarea {
+    width: 600px;
+    max-width: 98vw;
+    min-height: 140px;
+    max-height: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    resize: none;
+    overflow-y: auto;
+    padding: 16px 18px;
+    font-size: 1.12rem;
+    border-radius: 8px;
+    border: 1.5px solid #d9d9d9;
+    background: #fafafa;
+    box-sizing: border-box;
+    margin-bottom: 28px;
+    font-family: 'Inter', Arial, Helvetica, sans-serif;
+}
+
+@media (max-width: 700px) {
+    .faq--textarea {
+        width: 98vw;
+        min-width: 0;
+        max-width: 100vw;
+    }
+}
+
+/* Centraliza os botões do FAQ-pergunta */
+.faq--botoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+    margin-top: 32px;
+    width: 100%;
+    max-width: 700px;
+}
+
+.faq--botoes .button--voltar,
+.faq--botoes .button--cadastro {
+    width: 320px;
+    min-width: 220px;
+}
+
+@media (max-width: 600px) {
+    .faq--textarea {
+        width: 98vw;
+        min-width: 0;
+        max-width: 100vw;
+    }
+    .faq--botoes {
+        flex-direction: column;
+        gap: 18px;
+    }
+}
+
+/* CONTATOS - retângulos dos campos centrais */
+.contatos--retangulo {
+    background: #fff;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+    padding: 18px 32px;
+    width: 380px;
+    min-width: 280px;
+    max-width: 90vw;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-size: 1.08rem;
+    justify-content: flex-start;
+    margin: 0 auto;
+}
+
+@media (max-width: 600px) {
+    .contatos--retangulo {
+        width: 98vw;
+        min-width: 0;
+        max-width: 100vw;
+        padding: 12px 8px;
+        font-size: 1rem;
+    }
+}
+
+.contatos--botoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+    width: 100%;
+}
+
+body.contatos-bg {
+    background: #e7e7e7 !important;
+}
+
+/* RESPONSIVIDADE GERAL */
+@media (min-width: 1300px) {
+    .main--conteudo {
+        min-height: 70vh;
+    }
+    .article--boas-vindas,
+    .article--cadastro,
+    .article--menu-principal,
+    .article--faq,
+    .article--faq-pergunta,
+    .article--consultas,
+    .article--agenda,
+    .article--devs {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    .button--cadastro {
+        min-width: 340px;
+    }
+    .form--retangulo {
+        min-width: 600px;
+        max-width: 700px;
+    }
+    .faq--container-lista,
+    .agenda--container-lista {
+        width: 700px;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1299px) {
+    .main--conteudo {
+        min-height: 70vh;
+    }
+    .article--boas-vindas,
+    .article--cadastro,
+    .article--menu-principal,
+    .article--faq,
+    .article--faq-pergunta,
+    .article--consultas,
+    .article--agenda,
+    .article--devs {
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    .button--cadastro {
+        min-width: 280px;
+    }
+    .form--retangulo {
+        min-width: 480px;
+        max-width: 600px;
+    }
+    .faq--container-lista,
+    .agenda--container-lista {
+        width: 600px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .main--conteudo {
+        min-height: 70vh;
+    }
+    .article--boas-vindas,
+    .article--cadastro,
+    .article--menu-principal,
+    .article--faq,
+    .article--faq-pergunta,
+    .article--consultas,
+    .article--agenda,
+    .article--devs {
+        max-width: 95vw;
+        margin: 0 auto;
+    }
+    .button--cadastro {
+        min-width: 200px;
+        font-size: 1rem;
+        padding: 12px 32px;
+    }
+    .form--retangulo {
+        min-width: 320px;
+        max-width: 95vw;
+        padding: 16px 10px;
+    }
+    .faq--container-lista,
+    .agenda--container-lista {
+        width: 95vw;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 767px) {
+    .main--conteudo {
+        min-height: 70vh;
+    }
+    .article--boas-vindas,
+    .article--cadastro,
+    .article--menu-principal,
+    .article--faq,
+    .article--faq-pergunta,
+    .article--consultas,
+    .article--agenda,
+    .article--devs {
+        max-width: 99vw;
+        margin: 0 auto;
+    }
+    .button--cadastro {
+        min-width: 120px;
+        font-size: 0.98rem;
+        padding: 10px 10px;
+    }
+    .form--retangulo {
+        min-width: 0;
+        max-width: 99vw;
+        padding: 10px 2vw;
+    }
+    .faq--container-lista,
+    .agenda--container-lista {
+        width: 99vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .main--conteudo {
+        min-height: 70vh;
+        padding-bottom: 100px;
+    }
+    .article--boas-vindas,
+    .article--cadastro,
+    .article--menu-principal,
+    .article--faq,
+    .article--faq-pergunta,
+    .article--consultas,
+    .article--agenda,
+    .article--devs {
+        max-width: 100vw;
+        margin: 0 auto;
+        padding: 0 2vw;
+    }
+    .header--instituto {
+        padding: 18px 0 12px 0;
+    }
+    .header--logo {
+        width: 60px;
+    }
+    .button--cadastro, .button--voltar {
+        min-width: 90px;
+        font-size: 0.95rem;
+        padding: 8px 6px;
+        width: 100%;
+    }
+    .form--retangulo {
+        min-width: 0;
+        max-width: 100vw;
+        padding: 8px 2vw;
+    }
+    .faq--container-lista,
+    .agenda--container-lista {
+        width: 100vw;
+    }
+    .footer--instituto {
+        font-size: 0.95rem;
+        padding: 8px 0;
+    }
+}

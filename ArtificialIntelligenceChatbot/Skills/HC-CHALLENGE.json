@@ -1,0 +1,1251 @@
+{
+  "intents": [
+    {
+      "intent": "cadastro",
+      "examples": [
+        {
+          "text": "cadastrar"
+        },
+        {
+          "text": "cadastro"
+        },
+        {
+          "text": "Cadastro de paciente"
+        },
+        {
+          "text": "Como faço o cadastro?"
+        },
+        {
+          "text": "Desejo criar meu cadastro no hospital"
+        },
+        {
+          "text": "Marcelo"
+        },
+        {
+          "text": "Marcelo Alexandre"
+        },
+        {
+          "text": "Preciso fazer meu cadastro"
+        },
+        {
+          "text": "Preciso informar meus dados pessoais"
+        },
+        {
+          "text": "preciso logar no site"
+        },
+        {
+          "text": "preciso me cadastrar"
+        },
+        {
+          "text": "Quero atualizar meus dados"
+        },
+        {
+          "text": "quero fazer o login"
+        },
+        {
+          "text": "Quero me cadastrar"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "cancelar_consulta",
+      "examples": [
+        {
+          "text": "aonde cancelo minha consulta"
+        },
+        {
+          "text": "apagar consulta"
+        },
+        {
+          "text": "cancela"
+        },
+        {
+          "text": "cancelamento"
+        },
+        {
+          "text": "cancelar"
+        },
+        {
+          "text": "cancelar consulta"
+        },
+        {
+          "text": "Cancelar horário marcado"
+        },
+        {
+          "text": "desfazer consuta"
+        },
+        {
+          "text": "Desmarcar atendimento"
+        },
+        {
+          "text": "não desejo mais me consultar"
+        },
+        {
+          "text": "Não vou poder ir na consulta"
+        },
+        {
+          "text": "preicso cancelar a consulta"
+        },
+        {
+          "text": "Quero cancelar minha consulta"
+        },
+        {
+          "text": "vou cancelar"
+        },
+        {
+          "text": "vou faltar na consulta"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "faq",
+      "examples": [
+        {
+          "text": "duvida"
+        },
+        {
+          "text": "faq"
+        },
+        {
+          "text": "pergunta"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "informacoes_gerais",
+      "examples": [
+        {
+          "text": "aonde me informo"
+        },
+        {
+          "text": "aonde tem os horários"
+        },
+        {
+          "text": "atendem de semana?"
+        },
+        {
+          "text": "horários, quero saber deles"
+        },
+        {
+          "text": "informações"
+        },
+        {
+          "text": "informações gerais"
+        },
+        {
+          "text": "informações úteis"
+        },
+        {
+          "text": "onde me informo"
+        },
+        {
+          "text": "para que serve esse canal"
+        },
+        {
+          "text": "preciso de informações"
+        },
+        {
+          "text": "preciso saber mais"
+        },
+        {
+          "text": "preciso saber mais de algo?"
+        },
+        {
+          "text": "quando posso ser atendido"
+        },
+        {
+          "text": "quantas consultas posso fazer?"
+        },
+        {
+          "text": "quero mais informações"
+        },
+        {
+          "text": "quero saber mais"
+        },
+        {
+          "text": "quero saber sobre o cadastro"
+        },
+        {
+          "text": "sou obrigado a me cadastrar?"
+        },
+        {
+          "text": "tenho várias consultas"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "marcar_consulta",
+      "examples": [
+        {
+          "text": "agendar"
+        },
+        {
+          "text": "Agendar atendimento"
+        },
+        {
+          "text": "aonde marco consulta?"
+        },
+        {
+          "text": "aonde me consulto"
+        },
+        {
+          "text": "consultar"
+        },
+        {
+          "text": "devo me consultar?"
+        },
+        {
+          "text": "Gostaria de uma consulta"
+        },
+        {
+          "text": "irei marcar consulta"
+        },
+        {
+          "text": "marcar"
+        },
+        {
+          "text": "preciso de uma consulta"
+        },
+        {
+          "text": "Preciso de um médico"
+        },
+        {
+          "text": "quero marcar consulta"
+        },
+        {
+          "text": "Quero marcar uma consulta"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "planos_saude",
+      "examples": [
+        {
+          "text": "Esse hospital é particular ou aceita plano?"
+        },
+        {
+          "text": "Plano saude"
+        },
+        {
+          "text": "Plano saúde"
+        },
+        {
+          "text": "preciso adeir a um plano de saúde"
+        },
+        {
+          "text": "Quais planos de saúde vocês aceitam?"
+        },
+        {
+          "text": "quero um plano de saúde"
+        },
+        {
+          "text": "Tem atendimento por convênio?"
+        },
+        {
+          "text": "Vocês tem planos de saúde próprio?"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "remarcar_consulta",
+      "examples": [
+        {
+          "text": "Preciso remarcar minha consulta"
+        },
+        {
+          "text": "Quero alterar meu agendamento"
+        },
+        {
+          "text": "Quero mudar o horário da minha consulta"
+        },
+        {
+          "text": "Quero reagendar a consulta"
+        },
+        {
+          "text": "Quero trocar a data da consulta"
+        },
+        {
+          "text": "reagendar"
+        },
+        {
+          "text": "remaracar consulta"
+        },
+        {
+          "text": "remarcar"
+        },
+        {
+          "text": "Tem outro horário disponível?"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "civil",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "civil",
+          "patterns": [
+            "(?i)^(solteir[o|a]?|casad[o|a]?|divorciad[o|a]?|viúv[o|a]?|separad[o|a]?|uni[ãa]o est[aá]vel)$"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "cpf",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "cpf",
+          "patterns": [
+            "^\\d{3}[.\\s]?\\d{3}[.\\s]?\\d{3}[-\\s]?\\d{2}$"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "datas",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "datas",
+          "patterns": [
+            "\\b\\d{1,2}[\\/]?\\d{1,2}[\\/]?\\d{2,4}\\b"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "dt_nasc",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "dt_nasc",
+          "patterns": [
+            "^\\d{2}[./\\s]?\\d{2}[./\\s]?\\d{2,4}$"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "duvida",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "duvida",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "email",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "email",
+          "synonyms": []
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "estado",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "estado",
+          "patterns": [
+            "(?i)^(AC|Acre|AL|Alagoas|AP|Amapá|AM|Amazonas|BA|Bahia|CE|Ceará|DF|Distrito Federal|ES|Espírito Santo|GO|Goiás|MA|Maranhão|MT|Mato Grosso|MS|Mato Grosso do Sul|MG|Minas Gerais|PA|Pará|PB|Paraíba|PR|Paraná|PE|Pernambuco|PI|Piauí|RJ|Rio de Janeiro|RN|Rio Grande do Norte|RS|Rio Grande do Sul|RO|Rondônia|RR|Roraima|SC|Santa Catarina|SP|São Paulo|SE|Sergipe|TO|Tocantins)$"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "horario",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "horario",
+          "patterns": [
+            "^([0-1]?\\d|2[0-3])[h:]([0-5]\\d)?$"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "nome",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "nome",
+          "patterns": [
+            "^([A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇa-záéíóúâêîôûãõç]+(?:\\s+[A-ZÁÉÍÓÚÂÊÎÔÛÃÕÇa-záéíóúâêîôûãõç]+)+)$"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "sexo",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "sexo",
+          "patterns": [
+            "(?i)^(M|F|O|Masculino|Feminino|Outro)$"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "simnao",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "nao",
+          "synonyms": [
+            "n",
+            "nao",
+            "não",
+            "negativo",
+            "never",
+            "nop",
+            "nunca"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "sim",
+          "synonyms": [
+            "afimirmativo",
+            "beleza",
+            "bora lá",
+            "claro",
+            "correto",
+            "exato",
+            "pode seguir",
+            "prossiga",
+            "sim",
+            "simmm"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    },
+    {
+      "entity": "telefone",
+      "values": [
+        {
+          "type": "patterns",
+          "value": "telefone",
+          "patterns": [
+            "^(?:\\+?\\d{1,3}\\s?)?(\\(?\\d{2}\\)?[\\s.-]?)?\\d{4,5}[\\s.-]?\\d{4}$"
+          ]
+        }
+      ],
+      "fuzzy_match": false
+    },
+    {
+      "entity": "unidades",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "unidades",
+          "synonyms": [
+            "1",
+            "2",
+            "3",
+            "4",
+            "dois",
+            "jabaquara",
+            "leopoldina",
+            "quatro",
+            "são bernardo do campo",
+            "sapobemba",
+            "três",
+            "um"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá! 👋 Seja bem-vindo ao assistente virtual do Hospital das Clínicas.\n\nPosso te ajudar com:\n\n- 📝 Realizar seu cadastro  \n- 📅 Marcar uma consulta   \n- 🚩 FAQ  \n\nO que você deseja fazer hoje?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_4_1748054366991",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite seu sexo (masculino, feminino, outro): "
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_9_1745444836375",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1745444836376",
+      "previous_sibling": "handler_3_1745444836376"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1745445063163",
+      "context": {
+        "civil": "@civil.literal"
+      },
+      "conditions": "@civil.literal",
+      "event_name": "input",
+      "dialog_node": "handler_10_1745445063165"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite a sua dúvida: "
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1748054387775",
+      "event_name": "focus",
+      "dialog_node": "handler_10_1748054387775",
+      "previous_sibling": "handler_1_1748054387775"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1745440231053",
+      "context": {
+        "nome": "@nome.literal"
+      },
+      "conditions": "@nome.literal",
+      "event_name": "input",
+      "dialog_node": "handler_1_1745440231054"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite o número da unidade que deseja atendimento:  \n\n1 •  Sapobemba, \nSapobemba SP, R. Herwis, 923 - Vila Ema, São Paulo - SP, 03279-972\n\n2 • Leopoldina \nLeopoldina SP- Av. José César de Oliveira, 500 - Vila Leopoldina, São Paulo - SP, 05317-000\n\n3 • São Bernado do Campo \nSão Bernardo do Campo SP- Av. Rotary, 624 - Centro, São Bernardo do Campo - SP, 09721-000\n\n4 • Jabaquara\nJabaquara SP - Av. Fagundes Filho, 343 - Vila Monte Alegre, São Paulo - SP, 04304-010\n"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_5_1745441548846",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1745441548847",
+      "previous_sibling": "handler_4_1745441548847"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite sua data de nascimento:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_1_1745444739008",
+      "event_name": "focus",
+      "dialog_node": "handler_1_1745444739009",
+      "previous_sibling": "handler_8_1745444739009"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1748054387775",
+      "context": {
+        "duvida": "@duvida"
+      },
+      "conditions": "@duvida",
+      "event_name": "input",
+      "dialog_node": "handler_1_1748054387775"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Consulta cancelada"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1745422142277",
+      "conditions": "@simnao:sim",
+      "event_name": "filled",
+      "dialog_node": "handler_2_1745422406862",
+      "previous_sibling": "handler_5_1745422142279"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite seu nome completo:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1745440231053",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1745440231054",
+      "previous_sibling": "handler_1_1745440231054"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite uma data:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_9_1745441480151",
+      "event_name": "focus",
+      "dialog_node": "handler_2_1745441480154",
+      "previous_sibling": "handler_9_1745441480154"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1745432668716",
+      "context": {
+        "datas": "@datas"
+      },
+      "conditions": "@datas",
+      "event_name": "input",
+      "dialog_node": "handler_3_1745432668718"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1745444836375",
+      "context": {
+        "sexo": "@sexo.literal"
+      },
+      "conditions": "@sexo.literal",
+      "event_name": "input",
+      "dialog_node": "handler_3_1745444836376"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Estado civil (solteiro ou casado):"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_9_1745445063163",
+      "event_name": "focus",
+      "dialog_node": "handler_3_1745445063165",
+      "previous_sibling": "handler_10_1745445063165"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1745441548846",
+      "context": {
+        "unidades": "@unidades.literal"
+      },
+      "conditions": "@unidades.literal",
+      "event_name": "input",
+      "dialog_node": "handler_4_1745441548847"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite o seu e-mail:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1748054373341",
+      "event_name": "focus",
+      "dialog_node": "handler_4_1748054373349",
+      "previous_sibling": "handler_5_1748054373349"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deseja cancelar a consulta?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1745422142277",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1745422142279",
+      "previous_sibling": "handler_8_1745422142279"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, a  consulta permanece marcada."
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1745422142277",
+      "conditions": "@simnao:nao",
+      "event_name": "nomatch",
+      "dialog_node": "handler_5_1745422494188",
+      "previous_sibling": "handler_2_1745422406862"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Deseja remarcar a consulta?"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_10_1745441066148",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1745441066161",
+      "previous_sibling": "handler_9_1745441066161"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite um horário:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_5_1745441525342",
+      "event_name": "focus",
+      "dialog_node": "handler_5_1745441525343",
+      "previous_sibling": "handler_6_1745441525343"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1748054373341",
+      "context": {
+        "email": "@email"
+      },
+      "conditions": "@email",
+      "event_name": "input",
+      "dialog_node": "handler_5_1748054373349"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_5_1745441525342",
+      "context": {
+        "horario": "@horario.literal"
+      },
+      "conditions": "@horario.literal",
+      "event_name": "input",
+      "dialog_node": "handler_6_1745441525343"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite seu CPF:"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "slot_4_1745444802905",
+      "event_name": "focus",
+      "dialog_node": "handler_6_1745444802906",
+      "previous_sibling": "handler_9_1745444802906"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Vamos começar com o seu cadastro!"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "node_9_1745346072554",
+      "conditions": "#cadastro",
+      "event_name": "generic",
+      "dialog_node": "handler_7_1745349691232",
+      "previous_sibling": "slot_9_1745445063163"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite uma data:"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_3_1745432668716",
+      "event_name": "focus",
+      "dialog_node": "handler_7_1745432668718",
+      "previous_sibling": "handler_3_1745432668718"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_3_1745422142277",
+      "context": {
+        "simnao": "@simnao"
+      },
+      "conditions": "@simnao",
+      "event_name": "input",
+      "dialog_node": "handler_8_1745422142279"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_7_1745432650126",
+      "context": {
+        "horarios": "@horario.literal"
+      },
+      "conditions": "@horario.literal",
+      "event_name": "input",
+      "dialog_node": "handler_8_1745432650127"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_1_1745444739008",
+      "context": {
+        "dt_nasc": "@dt_nasc.literal"
+      },
+      "conditions": "@dt_nasc.literal",
+      "event_name": "input",
+      "dialog_node": "handler_8_1745444739009"
+    },
+    {
+      "type": "event_handler",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Digite um horário (entre 9h e 18h)):"
+              }
+            ],
+            "response_type": "text"
+          }
+        ]
+      },
+      "parent": "slot_7_1745432650126",
+      "event_name": "focus",
+      "dialog_node": "handler_9_1745432650127",
+      "previous_sibling": "handler_8_1745432650127"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_10_1745441066148",
+      "context": {
+        "simnao": "@simnao"
+      },
+      "conditions": "@simnao",
+      "event_name": "input",
+      "dialog_node": "handler_9_1745441066161"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_9_1745441480151",
+      "context": {
+        "datas": "@datas.literal"
+      },
+      "conditions": "@datas.literal",
+      "event_name": "input",
+      "dialog_node": "handler_9_1745441480154"
+    },
+    {
+      "type": "event_handler",
+      "output": {},
+      "parent": "slot_4_1745444802905",
+      "context": {
+        "cpf": "@cpf.literal"
+      },
+      "conditions": "@cpf.literal",
+      "event_name": "input",
+      "dialog_node": "handler_9_1745444802906"
+    },
+    {
+      "type": "frame",
+      "title": "Marcar Consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Consulta agendada as $horarios!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "multiline"
+          }
+        ]
+      },
+      "conditions": "#marcar_consulta",
+      "dialog_node": "node_10_1745432551869",
+      "previous_sibling": "node_9_1745346072554"
+    },
+    {
+      "type": "frame",
+      "title": "Cancelar Consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#cancelar_consulta",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1745360598543",
+      "previous_sibling": "node_4_1745362989626"
+    },
+    {
+      "type": "frame",
+      "title": "Remarcar Consulta",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Consulta remarcada! Para as $horario."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#remarcar_consulta",
+      "dialog_node": "node_4_1745362989626",
+      "previous_sibling": "node_10_1745432551869"
+    },
+    {
+      "type": "frame",
+      "title": "FAQ",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Sua dúvida foi cadastrada e logo será respondida! Aguarde uma resposta no e-mail cadastrado, Hospital das Clínicas agradece!"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#faq",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_4_1748054366991",
+      "previous_sibling": "node_3_1745360598543"
+    },
+    {
+      "type": "frame",
+      "title": "Cadastrar",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Cadastro realizado com sucesso! ✅\n\nAqui estão os dados que você nos informou:\n\n📌 Nome completo: $nome\n📆 Data de nascimento: $dt_nasc\n🆔 CPF: $cpf\n⚧️ Sexo: $sexo \n💍 Estado civil: $civil\n\nPosso te ajudar com mais alguma coisa? 😊"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#cadastro",
+      "dialog_node": "node_9_1745346072554",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1745362989626",
+      "variable": "$simnao",
+      "dialog_node": "slot_10_1745441066148"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1745346072554",
+      "variable": "$dt_nasc",
+      "dialog_node": "slot_1_1745444739008",
+      "previous_sibling": "slot_7_1745440231053"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_3_1745360598543",
+      "variable": "$simnao",
+      "dialog_node": "slot_3_1745422142277"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1745432551869",
+      "variable": "$datas",
+      "dialog_node": "slot_3_1745432668716",
+      "previous_sibling": "slot_7_1745432650126"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1748054366991",
+      "variable": "$email",
+      "dialog_node": "slot_3_1748054373341",
+      "previous_sibling": "slot_7_1748054387775"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1745346072554",
+      "variable": "$cpf",
+      "dialog_node": "slot_4_1745444802905",
+      "previous_sibling": "slot_1_1745444739008"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1745362989626",
+      "variable": "$horario",
+      "dialog_node": "slot_5_1745441525342",
+      "previous_sibling": "slot_9_1745441480151"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_4_1745362989626",
+      "variable": "$unidades",
+      "dialog_node": "slot_5_1745441548846",
+      "previous_sibling": "slot_5_1745441525342"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_10_1745432551869",
+      "variable": "$horarios",
+      "dialog_node": "slot_7_1745432650126"
+    },
+    {
+      "type": "slot",
+      "parent": "node_9_1745346072554",
+      "variable": "$nome",
+      "dialog_node": "slot_7_1745440231053"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1748054366991",
+      "variable": "$duvida",
+      "dialog_node": "slot_7_1748054387775"
+    },
+    {
+      "type": "slot",
+      "parent": "node_4_1745362989626",
+      "variable": "$datas",
+      "dialog_node": "slot_9_1745441480151",
+      "previous_sibling": "slot_10_1745441066148"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1745346072554",
+      "variable": "$sexo",
+      "dialog_node": "slot_9_1745444836375",
+      "previous_sibling": "slot_4_1745444802905"
+    },
+    {
+      "type": "slot",
+      "output": {},
+      "parent": "node_9_1745346072554",
+      "variable": "$civil",
+      "dialog_node": "slot_9_1745445063163",
+      "previous_sibling": "slot_9_1745444836375"
+    }
+  ],
+  "counterexamples": [
+    {
+      "text": "cadastro"
+    }
+  ],
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "Chatbot feito para o challenge do Hospital das Clinicas",
+  "name": "HC-CHALLENGE"
+}

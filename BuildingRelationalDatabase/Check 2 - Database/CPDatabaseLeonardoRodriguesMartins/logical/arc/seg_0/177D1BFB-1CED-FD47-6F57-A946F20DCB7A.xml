@@ -1,0 +1,16 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Arc class="oracle.dbtools.crest.model.design.logical.Arc" directorySegmentName="seg_0" id="177D1BFB-1CED-FD47-6F57-A946F20DCB7A" name="Arc_1">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-06 12:20:24 UTC</createdTime>
+<ownerDesignName>CPDatabaseLeonardoRodriguesMartins</ownerDesignName>
+<engineerTo>
+<item key="BD52EFD7-AD57-1D29-FBCE-37428351E3D1" value="true"/>
+</engineerTo>
+<entity>4E669F69-BDAD-1338-53E6-A52CD1549F1D</entity>
+<relations>
+<relationID>4D740D88-3723-5E85-47F8-C380FAADFF8E</relationID>
+<relationID>91395B79-403D-DC9F-428A-9B2E3A8F3B20</relationID>
+<relationID>DF46C472-C0B0-0271-E604-3116B6BEF975</relationID>
+<relationID>A9035317-7894-E015-8DEB-B4BCD068D348</relationID>
+</relations>
+</Arc>

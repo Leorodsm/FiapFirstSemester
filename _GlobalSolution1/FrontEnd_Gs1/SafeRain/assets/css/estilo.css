@@ -1,0 +1,508 @@
+/* Reset e Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    min-height: 100vh;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+h1, h2, h3 {
+    color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #0685D1;
+}
+
+/* Header */
+header.topo {
+    background-color: #ffffff;
+    color: #0685D1;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+header img {
+    height: 100px;
+    filter: none; /* Remove filtro para cor original do logotipo */
+}
+
+.icon-header {
+    width: 28px;
+    height: 28px;
+    margin: 0 0 4px 0;
+    vertical-align: middle;
+}
+
+header.topo h1 {
+    margin-bottom: 10px;
+    color: #0685D1;
+}
+
+header.topo nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+header.topo nav a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: clamp(14px, 2.5vw, 20px);
+    font-weight: bold;
+    background: linear-gradient(#04D5FB, #0674C9);
+    border-radius: 20px 5px 20px 5px;
+    padding: 10px;
+    width: 200px;
+    min-width: 175px;
+    color: #ffffff; /* Cor igual à dos ícones */
+    transition: color 0.2s;
+    text-decoration: none;
+    min-width: 60px;
+    transition: transform 0.5s ease, background-color 0.5s ease, color 0.5s ease;   
+
+}
+
+header.topo nav a:hover {    
+    background: linear-gradient(#D9F9FF,#009DFF);
+}
+
+/* Hero Section */
+.hero-alertas-wrapper {
+    width: 100vw;
+    margin-left: calc(-50vw + 50%);
+    margin-right: calc(-50vw + 50%);
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('../img/chuva.png') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background: none;
+    color: #fff;
+    text-align: center;
+}
+
+.hero h2, .hero p {
+    color: #fff;
+}
+
+.hero h2 {
+    font-size: 32px;
+}
+
+.hero p {
+    margin-top: 10px;
+}
+
+/* Alertas */
+.alertas {
+    background: none;
+    color: #fff;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.alertas h2 {
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+.card-alerta {
+    background-color: #ffffff;
+    color: #0674C9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px #0000001a;
+    margin-bottom: 15px;
+    border: 1px solid #fff;
+}
+
+.card-alerta h3 {
+    color: #0674C9;
+}
+
+.card-alerta:hover {
+    transform: scale(1.02);
+    background-color: #0674C9;
+    color: #ffffff;
+    transition: transform 0.2s ease, background-color 0.2s ease, color 0.2s ease;   
+}
+
+.card-alerta:hover h3 {
+    color: #ffffff;
+}
+
+.card-alerta h3:hover {
+    color: #fcfcfc;
+}
+
+
+/* Estilo das abas de emergência */
+.tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+}
+
+.tab-btn {
+    background: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 5px 5px 0 0;
+    cursor: pointer;
+    font-weight: 500;
+    color: #0685D1;
+    transition: background 0.2s, color 0.2s;
+}
+
+.tab-btn.active,
+.tab-btn:hover {
+    background: #0685D1;
+    color: #fff;
+}
+
+.tab-content {
+    background: #0685D1;
+    border: 1px solid #fff;
+    border-radius: 0 0 8px 8px;
+    padding: 18px 20px;
+    margin-bottom: 20px;
+    display: none;
+    color: #fff;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    box-sizing: border-box;
+}
+
+.tab-content h3 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* Novas regras para a seção de informações de emergência */
+.info-emergencia {
+    background: #ffffff;
+    color: #0685D1;
+    text-align: center;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.info-emergencia h2 {    
+    font-size: 32px;
+    margin: 50px 0 50px 0;
+    color: #0685D1;
+}
+
+.tabs {
+    display: flex;
+    gap: 8px;
+    margin-bottom: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tab-btn {
+    background: #0685D1;
+    color: #fff;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+.tab-btn.active,
+.tab-btn:hover {
+    background: #fff;
+    color: #0685D1;
+    border: 1px solid #0685D1;
+}
+
+.tab-content {
+    background: #fff;
+    color: #0685D1;
+    border: 1px solid #0685D1;
+    border-radius: 0 0 8px 8px;
+    margin-bottom: 20px;
+    display: none;
+    text-align: left;
+    justify-content: center;
+    width: 100%;
+    max-width: 900px;
+    margin: 0 auto 20px auto;
+    box-sizing: border-box;
+}
+
+.tab-content h3 {
+    color: #0685D1;
+    text-align: center;
+}
+
+.tab-content p {
+    margin: 0% 20%;
+}
+
+.tab-content hr {
+    margin: 0 20%;
+    border: none;
+    height: 4px;
+    background: linear-gradient(to right, #0674C9, #04D5FB);
+    border-radius: 2px
+}
+
+.tab-content ul {
+    margin: 0 auto;
+    padding-left: 0;
+    list-style-position: inside;
+    text-align: left;
+    max-width: 600px;
+    justify-content: center;
+}
+
+.tab-content ul li {
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.tab-content ul li::marker {
+    content: none;
+}
+.tab-content ul li::after {
+    content: '';
+}
+
+/* Remove pontos finais de listas aninhadas também */
+.tab-content ul ul li::marker {
+    content: none;
+}
+.tab-content ul ul li::after {
+    content: '';
+}
+
+.tab-content[style*="display:block"] {
+    display: block;
+}
+
+.tab-content p,
+.tab-content ul {
+    margin-left: 10%;
+    margin-right: 10%;
+    
+}
+
+.contato-emergencia {
+    background: #0685D1;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    text-align: center;
+}
+
+/* Footer */
+.rodape {
+    margin-top: auto;
+    width: 100%;
+    background-color: #157ab9;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px;
+    font-size: 1.1em;
+    letter-spacing: 0.5px;
+}
+
+
+/* Responsividade  */
+/* Header (360px até 425px) */
+@media (min-width: 320px) and (max-width: 425px) {
+    header.topo nav {
+        display: flex;
+        flex-direction:column;
+        flex-wrap: nowrap;         
+        overflow-x: auto;         
+        gap: 10px;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    header.topo nav a {
+        flex-direction: row;
+        align-items: center;
+        min-width: 120px;          
+        white-space: nowrap;
+        font-size: 1rem;
+        padding: 8px 10px;
+    }
+    .icon-header {
+        width: 20px;
+        height: 20px;
+        margin: 0 8px 0 0;
+    }
+}
+
+
+/* Extra small devices (xs, <576px) */
+@media (max-width: 575.98px) {
+    main {
+        padding: 0 2vw;
+    }
+    .info-emergencia {
+        padding: 0 2vw;
+        max-width: 100%;
+    }
+    .tab-content {
+        padding: 10px 2vw;
+        max-width: 100%;
+    }
+    .tab-content p, .tab-content hr {
+        margin: 0 2vw;
+    }
+    .tab-content ul {
+        max-width: 100%;
+    }
+    .tabs {
+        flex-direction: column;
+        gap: 4px;
+    }
+    .tab-btn {
+        width: 100%;
+        font-size: 1rem;
+    }
+    h1, h2, h3 {
+        font-size: 1.2rem;
+    }
+}
+
+/* Small devices (sm, ≥576px) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+    .info-emergencia {
+        padding: 0 4vw;
+        max-width: 98vw;
+    }
+    .tab-content {
+        padding: 14px 4vw;
+        max-width: 98vw;
+    }
+    .tab-content p, .tab-content hr {
+        margin: 0 4vw;
+    }
+    .tab-content ul {
+        max-width: 98vw;
+    }
+    .tabs {
+        flex-direction: row;
+        gap: 6px;
+    }
+    .tab-btn {
+        font-size: 1.05rem;
+    }
+    h1, h2, h3 {
+        font-size: 1.3rem;
+    }
+}
+
+/* Medium devices (md, ≥768px) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+    .info-emergencia {
+        padding: 0 6vw;
+        max-width: 90vw;
+    }
+    .tab-content {
+        padding: 18px 6vw;
+        max-width: 90vw;
+    }
+    .tab-content p, .tab-content hr {
+        margin: 0 6vw;
+    }
+    .tab-content ul {
+        max-width: 90vw;
+    }
+    .tab-btn {
+        font-size: 1.1rem;
+    }
+    h1, h2, h3 {
+        font-size: 1.4rem;
+    }
+}
+
+/* Large devices (lg, ≥992px) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+    .info-emergencia {
+        padding: 0 8vw;
+        max-width: 80vw;
+    }
+    .tab-content {
+        padding: 22px 8vw;
+        max-width: 80vw;
+    }
+    .tab-content p, .tab-content hr {
+        margin: 0 8vw;
+    }
+    .tab-content ul {
+        max-width: 80vw;
+    }
+    .tab-btn {
+        font-size: 1.15rem;
+    }
+    h1, h2, h3 {
+        font-size: 1.5rem;
+    }
+}
+
+/* Extra large devices (xl, ≥1200px) */
+@media (min-width: 1200px) {
+    .info-emergencia {
+        padding: 0 0;
+        max-width: 1100px;
+    }
+    .tab-content {
+        padding: 24px 40px;
+        max-width: 900px;
+    }
+    .tab-content p, .tab-content hr {
+        margin: 0 20%;
+    }
+    .tab-content ul {
+        max-width: 600px;
+    }
+    .tab-btn {
+        font-size: 1.2rem;
+    }
+    h1, h2, h3 {
+        font-size: 1.7rem;
+    }
+}
+

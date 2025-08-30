@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Desenvolvedores do Site - Teleconsultas HC FMUSP</title>
+        <link rel="stylesheet" href="./CSS/style.css">
+    </head>
+
+    <body>
+        <header class="header--instituto">
+            <nav class="nav--instituto" aria-label="Navegação principal">
+                <img src="./IMG/logo-imrea.png" alt="Logo Instituto de Medicina Física e Reabilitação HC FMUSP" class="header--logo">
+                <section class="header--titulo">
+                    <h1 class="header--instituto-nome">INSTITUTO DE<br>MEDICINA FÍSICA E<br><span class="header--instituto-reabilitacao">REABILITAÇÃO</span></h1>
+                    <span class="header--instituto-sub">HC FMUSP</span>
+                </section>
+            </nav>
+        </header>
+
+        <main class="main--conteudo">
+            <article class="article--devs">
+
+                <section class="section--devs-mensagem">
+                    <h2 class="section--devs-titulo">Desenvolvedores do Site:</h2>
+                    <p class="section--devs-texto">Veja os responsáveis por esse projeto!</p>
+                </section>
+
+                <aside class="aside--devs-lista">
+                    <div class="devs--linha">
+                        <span class="devs--nome">Poliana Batista Sarmento</span>
+                        <button class="devs--saiba-mais" data-dev="poli">Saiba mais</button>
+                    </div>
+
+                    <div class="devs--linha">
+                        <span class="devs--nome">Leonardo Rodrigues Martins</span>
+                        <button class="devs--saiba-mais" data-dev="leo">Saiba mais</button>
+                    </div>
+
+                    <div class="devs--linha">
+                        <span class="devs--nome">Marcelo Alexandre dos Santos</span>
+                        <button class="devs--saiba-mais" data-dev="celo">Saiba mais</button>
+                    </div>
+                </aside>
+
+                <div id="devs-modal-bg" class="devs--modal-bg" style="display:none;">
+                    <div id="devs-modal" class="devs--modal">
+                        <button class="devs--modal-fechar" onclick="fecharModalDev()">&times;</button>
+                        <div id="devs-modal-content"></div>
+                    </div>
+                </div>
+                
+                <div class="devs--botoes">
+                    <a href="menu.html" class="button--voltar-link"><button class="button--voltar" type="button">Voltar</button></a>
+                </div>
+            </article>
+        </main>
+
+        <footer class="footer--instituto">
+            <section class="footer--info">
+                <span>© 2024  HC-FMUSP. Todos os direitos reservados. | <a href="#" class="footer--privacidade">Política de Privacidade</a></span>
+            </section>
+        </footer>
+
+        <script src="JS/script.js"></script>
+    </body>
+</html>

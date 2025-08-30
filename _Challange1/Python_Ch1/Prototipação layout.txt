@@ -1,0 +1,206 @@
+_____________________________________________________________________________
+
+                             IMREA  HC - Tela Inicial
+
+Bem Vindo!
+
+1 - Cadastrar	
+
+2 - Sair do programa
+
+(Digite em seguida a opção númerica desejada acima)
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+                             IMREA  HC - Cadastro
+
+Complete os campos com seus dados:
+
+Nome completo:
+Data de nascimento:
+CPF: 
+Sexo biologico:
+Estado Civil:
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+
+                  *** Cadastro efetuado com sucesso! ***
+
+- Realize seu login com CPF e data de nascimento, 
+- Após isso receberá um código por E-mail para autorizar sua entrada!
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+                             IMREA  HC - Menu Principal
+
+1 - Consutas
+2 - Agendamento
+3 - FAQ
+
+4 - Sair do programa
+
+(Digite em seguida a opção númerica desejada acima)
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+                             IMREA  HC - Consultas
+
+- Nenhuma Consulta Agendada!
+
+1 - Retornar ao menu principal
+2 - Sair do Programa
+
+(Digite em seguida a opção númerica desejada acima)
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+                             IMREA  HC - Consultas
+
+- Horário da consulta: 14h00
+- Link da Videoconferência: https://www.teamsmetup..............
+
+- Orientações: 
+Caso esteja no computador, se ajeite e fique confortável!
+Em dispositíveis móveis, apoie o celular e se ajeite confortavelmente!
+
+1 - Acessar a videoconferência
+2 - Retornar ao menu principal
+3 - Sair do Programa
+
+(Digite em seguida a opção númerica desejada acima)
+
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+                             IMREA  HC - Consultas
+
+Você será redirecionado para a teleconsulta... (Funcionará futuramente)
+
+1 - Tentar acessar novamente (Caso não tenha funcionado)
+2 - Retornar ao menu principal
+3 - Sair do Programa
+
+(Digite em seguida a opção númerica desejada acima)
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+                             IMREA  HC - Agendamento
+
+Dias disponíveis (Somente as datas visíveis podem ser selecionadas)
+
+D   S   T   Q   Q   S   S   
+
+    2   3   4   5   6        
+    9   10  11  12  13      
+    16  17  18  19  20    
+    23  24  25  26  27  
+    30  31
+
+Digite o dia desejado:
+
+Horários Disponíveis:
+
+1 - 8h
+2 - 9h
+3 - 10h
+4 - 11h
+5 - 13h
+6 - 14h
+7 - 15h
+8 - 16h
+9 - 17h
+
+(Digite em seguida a opção númerica desejada acima)
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+                     *** Data Selecionada com Sucesso! ***
+
+- Verifique sua consulta agendada na opção "consultas" do menu principal
+
+_____________________________________________________________________________
+
+_____________________________________________________________________________
+
+                             IMREA  HC - FAQ
+
+- Como verifico meus agendamentos?
+Vá até a opção "Consultas" do menu principal e veja o dia e a hora da consulta"
+
+- Como são determinadas as datas de agendamento?
+São determinadas de acordo com a disponibilidade do profissional que o atenderá
+
+
+1 - Retornar ao menu principal
+2 - Sair do Programa
+
+(Digite em seguida a opção númerica desejada acima)
+
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+                                  IMREA  HC
+
+
+
+                   Obrigado pela preferência. Tenha um ótimo dia! 
+
+
+
+
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+                             IMREA  HC - 
+
+
+
+
+
+
+
+
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+                             IMREA  HC - 
+
+
+
+
+
+
+
+
+_____________________________________________________________________________
+_____________________________________________________________________________
+
+                             IMREA  HC - 
+
+
+
+
+
+
+
+
+_____________________________________________________________________________
+
+
+

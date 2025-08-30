@@ -1,0 +1,299 @@
+{
+  "intents": [
+    {
+      "intent": "prova",
+      "examples": [
+        {
+          "text": "fale sobre a prova"
+        },
+        {
+          "text": "gabarito da gs"
+        },
+        {
+          "text": "me ajuda prova"
+        },
+        {
+          "text": "o que é GS"
+        }
+      ],
+      "description": ""
+    },
+    {
+      "intent": "trocar_saida",
+      "examples": [
+        {
+          "text": "Quer mudar para a saida"
+        },
+        {
+          "text": "quero a resposta em áudio"
+        },
+        {
+          "text": "Quero a resposta em texto"
+        },
+        {
+          "text": "Quero modificar o formato da saída"
+        },
+        {
+          "text": "Quero trocar a saída"
+        },
+        {
+          "text": "Quero voltar para a saída padrão"
+        }
+      ],
+      "description": ""
+    }
+  ],
+  "entities": [
+    {
+      "entity": "tipo_saida",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "audio",
+          "synonyms": [
+            "fala",
+            "som",
+            "voz"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "padrão",
+          "synonyms": [
+            "antes",
+            "default",
+            "normal"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "texto",
+          "synonyms": [
+            "digitada",
+            "escrita"
+          ]
+        }
+      ],
+      "fuzzy_match": true
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Bem-vindo",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Olá. Como posso te ajudar?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome",
+      "dialog_node": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Em outros casos",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Eu não entendi. Você pode tentar reformular a frase."
+              },
+              {
+                "text": "Você pode reformular sua afirmação? Eu não estou entendendo."
+              },
+              {
+                "text": "Eu não entendi o sentido."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "dialog_node": "Em outros casos",
+      "previous_sibling": "node_7_1699629518970",
+      "disambiguation_opt_out": true
+    },
+    {
+      "type": "standard",
+      "title": "Audio",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Modificado para saída de áudio."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1699629518970",
+      "context": {
+        "tipo_saida": "voice"
+      },
+      "conditions": "@tipo_saida:audio",
+      "dialog_node": "node_2_1699629964392",
+      "previous_sibling": "node_6_1699629874738"
+    },
+    {
+      "type": "standard",
+      "title": "Prova",
+      "output": {
+        "generic": [
+          {
+            "title": "Qual das opções você gostaria?",
+            "options": [
+              {
+                "label": "Carro ",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              },
+              {
+                "label": "Caminhão",
+                "value": {
+                  "input": {
+                    "text": ""
+                  }
+                }
+              }
+            ],
+            "response_type": "option"
+          }
+        ]
+      },
+      "conditions": "#prova",
+      "dialog_node": "node_3_1699630322679",
+      "previous_sibling": "Bem-vindo"
+    },
+    {
+      "type": "standard",
+      "title": "Trocar Saida Jump",
+      "output": {
+        "generic": []
+      },
+      "next_step": {
+        "behavior": "jump_to",
+        "selector": "condition",
+        "dialog_node": "node_6_1699629874738"
+      },
+      "conditions": "#trocar_saida && @tipo_saida",
+      "digress_in": "does_not_return",
+      "dialog_node": "node_3_1699631279769",
+      "previous_sibling": "node_3_1699630322679"
+    },
+    {
+      "type": "standard",
+      "title": "Texto",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok, modificado para texto."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1699629518970",
+      "context": {
+        "tipo_saida": "message"
+      },
+      "conditions": "@tipo_saida:texto",
+      "dialog_node": "node_6_1699629874738"
+    },
+    {
+      "type": "standard",
+      "title": "Trocar Saida",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Você quer que a saída seja padrão ou em áudio ou texto?"
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#trocar_saida",
+      "dialog_node": "node_7_1699629518970",
+      "previous_sibling": "node_3_1699631279769"
+    },
+    {
+      "type": "standard",
+      "title": "Padrao",
+      "output": {
+        "generic": [
+          {
+            "values": [
+              {
+                "text": "Ok. Saída modificada para padrão."
+              }
+            ],
+            "response_type": "text",
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_7_1699629518970",
+      "context": {
+        "tipo_saida": "padrão"
+      },
+      "conditions": "@tipo_saida:padrão",
+      "dialog_node": "node_7_1714667395949",
+      "previous_sibling": "node_2_1699629964392"
+    }
+  ],
+  "counterexamples": [],
+  "system_settings": {
+    "generative_ai": {
+      "slot_filling": {
+        "enabled": false
+      }
+    },
+    "disambiguation": {
+      "prompt": "Você quis dizer:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title",
+      "none_of_the_above_prompt": "Nenhuma das anteriores",
+      "use_connect_to_support_prompt": "Connect to support",
+      "single_answer_clarification_prompt": "Something else"
+    },
+    "human_agent_assist": {
+      "prompt": "Você quis dizer:"
+    }
+  },
+  "learning_opt_out": false,
+  "language": "pt-br",
+  "description": "",
+  "name": "Teste GS-dialog"
+}
